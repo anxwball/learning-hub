@@ -22,6 +22,11 @@ Casos límite:
   - Descripción 1
   - Descripción 2
 
+Casos de uso:
+  - Idea 1
+  - Idea 2
+  - Idea 3
+
 Revisión:
   - Nota 1
   - Nota 2

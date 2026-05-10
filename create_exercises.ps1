@@ -31,6 +31,11 @@ Complejidad: Tiempo O() | Espacio O()
 Casos límite:
     -
 
+Casos de uso:
+  -
+  -
+  -
+
 Revisión:
     -
 """
