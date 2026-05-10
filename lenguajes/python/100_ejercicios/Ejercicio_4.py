@@ -7,23 +7,28 @@ Fecha     : 2026-05-02
 Estado    : resuelto
 
 Enfoque:
-        - Crear una lista con elementos de distintos tipos (`int`, `str`,
-            `float`, `bool`) y mostrarla en consola. Ejemplo didáctico con valores
-            constantes para ilustrar la estructura de datos y la anotación de tipos.
+    - Crear una lista con elementos de distintos tipos (`int`, `str`,
+      `float`, `bool`) para ilustrar heterogeneidad de estructuras.
+    - Demostrar anotación de tipos con `typing.List` y `typing.Union`.
+    - Ejemplo didáctico con valores constantes para mantener claridad.
 
 Complejidad: Tiempo O(n) | Espacio O(n)
-        - La complejidad depende del número de elementos en la lista; crear o
-            copiar la lista requiere espacio y tiempo lineal en su longitud.
+    - La complejidad depende del número de elementos en la lista; crear o
+      copiar la lista requiere espacio y tiempo lineal en su longitud.
 
 Casos límite:
-        - Versión actual: lista definida en el código, por lo que no hay
-            validación en tiempo de ejecución.
-        - Si se acepta entrada dinámica, validar tipos de elemento y gestionar
-            `None` o entradas inválidas. Para listas muy grandes, vigilar el uso
-            de memoria.
+    - Versión actual: lista definida en el código sin validación en tiempo
+      de ejecución.
+    - Si se acepta entrada dinámica, validar tipos de elemento y gestionar
+      `None` o entradas inválidas.
+    - Para listas muy grandes, considerar el uso de memoria y potencial
+      necesidad de optimización.
 
 Revisión:
-        - 2026-05-02: Documentación completada y anotaciones de tipo añadidas.
+    - 2026-05-02: Documentación completada e incorporadas anotaciones de
+      tipos con módulo `typing`.
+    - Didáctico: demuestra heterogeneidad de tipos en una estructura única,
+      con anotación explícita para validación estática.
 """
 from typing import List, Union
 
@@ -32,8 +37,8 @@ def main():
 
     Define una lista local `lista_1` que contiene varios tipos (`int`,
     `str`, `float`, `bool`), imprime su contenido y demuestra la anotación
-    de tipos con `typing.List` y `typing.Union`. Diseñada como ejemplo
-    didáctico; no recibe argumentos ni devuelve valor.
+    de tipos con `typing.List` y `typing.Union` para documentación clara
+    y validación estática.
 
     Returns:
         None

@@ -8,29 +8,34 @@ Estado    : resuelto
 
 Enfoque:
     - Mostrar el uso de la función incorporada `len()` para obtener la
-      longitud de una cadena. El ejemplo usa una cadena constante para
-      mantenerlo didáctico y directo.
+      longitud de una cadena de forma inmediata y precisa.
+    - El ejemplo usa una cadena constante para mantenerlo didáctico
+      y directo, enfocado en la operación básica.
 
 Complejidad: Tiempo O(1) | Espacio O(1)
-    - Calcular la longitud de una cadena mediante `len()` es una operación
-      que en CPython está optimizada y no depende de entrada adicional
-      en este ejemplo simple.
+    - Calcular la longitud de una cadena mediante `len()` en CPython está
+      optimizado a constante (la longitud está almacenada en el objeto).
+      No depende de recorrer la cadena en este caso.
 
 Casos límite:
     - Cadena vacía: la longitud debe ser 0.
-    - Cadenas con espacios o caracteres especiales se cuentan como
-      caracteres individuales según la representación de Python.
+    - Cadenas con espacios: se cuentan como caracteres individuales.
+    - Caracteres especiales y multibyte (UTF-8): se cuentan correctamente
+      según la representación Unicode en Python.
 
 Revisión:
     - 2026-05-03: Normalizado el header y la documentación al formato
-      utilizado en otros ejercicios.
+      estándar del repositorio.
+    - Aclarado que `len()` es O(1) en CPython por optimización interna,
+      facilitando comprensión de eficiencia.
 """
 
 def main():
-    """Ejemplo: calcular y mostrar la longitud de una cadena.
+    """Calcular y mostrar la longitud de una cadena.
 
-    Se define una cadena de ejemplo, se calcula su longitud con `len()` y
-    se imprime el resultado formateado.
+    Define una cadena de ejemplo, calcula su longitud con la función
+    incorporada `len()` y muestra el resultado formateado. Demuestra
+    cómo acceder a propiedades básicas de estructuras de datos.
 
     Returns:
         None

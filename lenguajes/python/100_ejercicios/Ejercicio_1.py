@@ -7,36 +7,39 @@ Fecha     : 2026-05-02
 Estado    : resuelto
 
 Enfoque:
-        - Ejemplo mínimo para ilustrar la operación de suma entre dos variables
-            enteras/numéricas. El objetivo es claridad didáctica y legibilidad,
-            no robustez frente a entradas externas.
-        - Se mantiene con valores constantes para facilitar la lectura y el
-            análisis de complejidad; puede extenderse para entrada de usuario.
+    - Ejemplo mínimo para ilustrar la operación de suma entre dos variables
+      enteras/numéricas, enfatizando claridad didáctica y legibilidad.
+    - Se mantiene con valores constantes para facilitar la lectura y el
+      análisis de complejidad; puede extenderse para entrada de usuario.
+    - Fundación para ejercicios más complejos que involucren operadores
+      aritméticos y manejo de tipos numéricos.
 
 Complejidad: Tiempo O(1) | Espacio O(1)
-        - La operación consiste en una única suma y asignaciones constantes,
-            por lo que no depende del tamaño de entrada.
+    - La operación consiste en una única suma y asignaciones constantes,
+      por lo que no depende del tamaño de entrada.
 
 Casos límite:
-        - Versión actual: sin entrada dinámica, por lo que no hay casos de
-            validación en tiempo de ejecución.
-        - Si se habilita lectura de usuario, validar tipos (enteros/float)
-            y manejar errores (`ValueError`) para entradas no numéricas.
-        - Para floats, considerar precisión de punto flotante; para enteros,
-            Python soporta precisión arbitraria.
+    - Versión actual: sin entrada dinámica, por lo que no hay validación
+      en tiempo de ejecución.
+    - Si se habilita lectura de usuario, validar tipos (enteros/float)
+      y manejar errores (`ValueError`) para entradas no numéricas.
+    - Para floats, considerar precisión de punto flotante; para enteros,
+      Python soporta precisión arbitraria.
 
 Revisión:
-        - 2026-05-02: Actualizada la documentación para describir enfoque,
-            complejidad y casos límite; considerar añadir manejo de errores si
-            se cambia a entrada interactiva.
+    - 2026-05-02: Documentación inicial completada con estructura de
+      enfoque, complejidad y casos límite. Ejemplifica patrón didáctico.
+    - Futura extensión posible: integrar entrada interactiva con validación
+      de tipos y manejo de errores si se desea mayor interactividad.
 """
 
 def main():
     """Sumar dos números y mostrar el resultado.
 
-    Usa dos variables locales (`a`, `b`) con valores constantes, calcula su suma
-    y la imprime por consola. Diseñada como ejemplo didáctico; no recibe
-    argumentos ni devuelve un valor.
+    Crea dos variables enteras locales (`a`, `b`) con valores predefinidos,
+    calcula su suma mediante el operador `+` y muestra el resultado por
+    consola. Ejemplifica el patrón didáctico de operación constante sin
+    entrada dinámica.
 
     Returns:
         None

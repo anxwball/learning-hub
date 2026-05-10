@@ -8,25 +8,36 @@ Estado    : resuelto
 
 Enfoque:
     - Demostrar la creación de una tupla heterogénea y cómo imprimir
-      su contenido. El ejemplo usa una tupla constante para mantener la
-      explicación simple y enfocada en la inmutabilidad de la estructura.
+      su contenido de forma clara.
+    - El ejemplo usa una tupla constante para mantener la explicación
+      simple y enfocada en la estructura inmutable de datos.
+    - Contraste implícito con listas (ejercicio 4) para evidenciar
+      diferencias de mutabilidad.
 
 Complejidad: Tiempo O(1) | Espacio O(1)
     - La construcción e impresión de una tupla de tamaño fijo es una
-      operación constante respecto a la entrada mostrada en este ejemplo.
+      operación constante respecto al cómputo principal del script.
 
 Casos límite:
     - Tupla vacía: su impresión debe mostrar `()`.
     - Inmutabilidad: intentar modificar elementos generará excepciones
       (`TypeError`). Para operaciones mutables, usar listas.
+    - Tupla con un solo elemento: requiere sintaxis especial `(x,)` para
+      diferenciar de paréntesis de expresión.
 
 Revisión:
-    - 2026-05-03: Ajustado header y documentación al formato común del
-      repositorio.
+    - 2026-05-03: Ajustado header y documentación al formato estándar
+      del repositorio.
+    - Mejora didáctica: enfatiza inmutabilidad como diferenciador clave
+      respecto a listas.
 """
 
 def main():
     """Crear una tupla de ejemplo y mostrar su contenido.
+
+    Define una tupla heterog\u00e9nea (contiene m\u00faltiples tipos: str, int,
+    bool, float) y la imprime por consola. Demuestra la sintaxis de tuplas
+    y su naturaleza inmutable como estructura de datos.
 
     Returns:
         None

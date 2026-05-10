@@ -7,29 +7,34 @@ Fecha     : 2026-05-03
 Estado    : resuelto
 
 Enfoque:
-    - Mostrar cómo invertir una cadena usando slicing `[::-1]` y comentar
-      la complejidad de la operación. El ejemplo mantiene la cadena como
-      constante para centrarse en la técnica.
+    - Mostrar cómo invertir una cadena usando slicing con `[::-1]`.
+    - Comentar la complejidad y eficiencia de la operación.
+    - El ejemplo mantiene la cadena como constante para centrarse en la
+      técnica de inversión.
 
 Complejidad: Tiempo O(n) | Espacio O(n)
-    - Invertir una cadena crea una nueva cadena de tamaño n, por lo que el
-      coste temporal y espacial es lineal en la longitud de la cadena.
+    - Invertir una cadena crea una nueva cadena de tamaño n, por lo que
+      el coste temporal y espacial es lineal en la longitud de la cadena.
 
 Casos límite:
     - Cadena vacía: la inversión debe devolver una cadena vacía.
     - Cadenas con caracteres multibyte (UTF-8): la inversión opera a nivel
       de caracteres Unicode en Python y mantiene correctamente los símbolos.
+    - Palíndromes: cadenas que son iguales invertidas (p. ej. "radar").
 
 Revisión:
     - 2026-05-03: Normalizado el header y la documentación al formato
       común del repositorio.
+    - Didáctico: demuestra idioma Python (slicing negativo) y optimización
+      de operaciones con cadenas respecto a enfoque iterativo.
 """
 
 def main():
     """Invertir una cadena y mostrar el resultado.
 
-    Uses slicing to reverse the string and prints both original and
-    reversed versions.
+    Crea una cadena de ejemplo, invierte su contenido mediante slicing
+    negativo `[::-1]` y muestra ambas versiones (original e invertida)
+    para comparación y claridad.
 
     Returns:
         None

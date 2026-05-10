@@ -8,29 +8,37 @@ Estado    : resuelto
 
 Enfoque:
     - Utilizar `sum()` y `len()` para obtener el promedio de una lista
-      de números. El ejemplo usa una lista constante para mantener la
-      demostración sencilla y didáctica.
+      de números de forma clara y didáctica.
+    - El ejemplo usa una lista constante para mantener la demostración
+      sencilla y enfocada en la lógica de cálculo.
 
 Complejidad: Tiempo O(n) | Espacio O(1)
-    - Se recorre la lista una vez para sumar sus elementos; el uso de
-      memoria es constante respecto al tamaño de la entrada.
+    - Se recorre la lista una vez para sumar sus elementos (coste O(n));
+      el uso de memoria es constante respecto al tamaño de la entrada.
 
 Casos límite:
     - Lista vacía: evitar división por cero (en este ejemplo la lista es
       no vacía). Si se permitiera entrada dinámica, validar y manejar
-      este caso explícitamente.
-    - Valores no numéricos: validar tipos si la lista proviene de
-      entrada externa.
+      este caso explícitamente con condicionales.
+    - Valores no numéricos: generar `TypeError` en `sum()`. Validar tipos
+      si la lista proviene de entrada externa.
+    - Valores muy grandes: riesgo de overflow en otros lenguajes, pero
+      Python maneja enteros de precisión arbitraria.
 
 Revisión:
     - 2026-05-03: Normalizado el header y la documentación al formato
-      común del repositorio.
+      estándar del repositorio.
+    - Didáctico: combinación de funciones incorporadas para estadística
+      básica, patrón reutilizable.
 """
 
 def main():
     """Calcular y mostrar el promedio de una lista de números.
 
-    Usa una lista de ejemplo, calcula su promedio dividiendo la suma de sus elementos por su longitud, y muestra el resultado formateado; no toma entrada del usuario para mantenerlo directo y didáctico.
+    Define una lista de enteros, calcula su promedio dividiendo la suma
+    (con `sum()`) por la cantidad de elementos (con `len()`) y muestra
+    el resultado formateado. No toma entrada del usuario para mantenerlo
+    directo y didáctico.
 
     Returns:
         None

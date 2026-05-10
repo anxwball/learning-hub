@@ -8,28 +8,35 @@ Estado    : resuelto
 
 Enfoque:
     - Multiplicar dos valores numéricos (`a`, `b`) y mostrar el resultado.
-    - Ejemplo mínimo y didáctico con valores constantes; sirve para
-      ilustrar la operación y la anotación de tipos en Python.
+    - Ejemplo mínimo y didáctico con valores constantes para ilustrar la
+      operación fundamental y la anotación de tipos en Python.
+    - Paralelo al ejercicio 1 (suma) para demostrar consistencia entre
+      operadores aritméticos.
 
 Complejidad: Tiempo O(1) | Espacio O(1)
-    - Operación aritmética constante; no depende del tamaño de entrada.
+    - Operación aritmética constante que no depende del tamaño de entrada.
 
 Casos límite:
-    - Versión actual: valores constantes, por lo que no hay validación
-      dinámica en tiempo de ejecución.
-    - Si se habilita entrada del usuario, validar tipos numéricos y
-      considerar overflow en representaciones no enteras (floats).
+    - Versión actual: valores constantes sin validación dinámica en tiempo
+      de ejecución.
+    - Si se habilita entrada del usuario, validar tipos numéricos y manejar
+      posibles excepciones (`ValueError`).
+    - Para floats, considerar precisión de punto flotante; para enteros,
+      Python soporta precisión arbitraria.
 
 Revisión:
-    - 2026-05-03: Documentación completada y docstring de `main()` actualizado.
+    - 2026-05-03: Documentación completada con estructura estándar. Docstring
+      de `main()` mejorado para claridad.
+    - Didáctico: complementa ejercicio 1, demostrando patrón consistente
+      entre operadores aritméticos binarios básicos.
 """
 
 def main():
     """Multiplicar dos números y mostrar el resultado.
 
-    Usa dos variables locales (`a`, `b`) con valores constantes, calcula
-    su producto y lo imprime por consola. Diseñada como ejemplo didáctico;
-    no recibe argumentos ni devuelve valor.
+    Crea dos variables enteras locales (`a`, `b`) con valores predefinidos,
+    calcula su producto mediante el operador `*` y muestra el resultado por
+    consola. Ejemplifica patrón paralelo al ejercicio 1 (suma).
 
     Returns:
         None

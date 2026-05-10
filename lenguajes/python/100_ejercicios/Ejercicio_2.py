@@ -7,33 +7,37 @@ Fecha     : 2026-05-02
 Estado    : resuelto
 
 Enfoque:
-Enfoque:
-        - Calcular el área de un círculo usando la fórmula `pi * radio**2`.
-        - Ejemplo didáctico con valores constantes para ilustrar el cálculo
-            y la impresión del resultado. Puede adaptarse para recibir entrada
-            del usuario si se desea validar y parsear el radio.
+    - Calcular el área de un círculo usando la fórmula `pi * radio**2`.
+    - Importar `math` para acceder a la constante `pi` de forma precisa.
+    - Ejemplo didáctico con valores constantes para ilustrar el cálculo
+      y la salida formateada con precisión controlada.
 
 Complejidad: Tiempo O(1) | Espacio O(1)
-        - El cálculo requiere una cantidad constante de operaciones y memoria.
+    - El cálculo requiere una cantidad constante de operaciones y memoria,
+      independientemente del valor del radio.
 
 Casos límite:
-        - Versión actual: el radio es una constante en el código, por lo que
-            no hay casos de validación en tiempo de ejecución.
-        - Si se cambia a entrada dinámica, validar que `radio >= 0` y manejar
-            entradas no numéricas (capturar `ValueError`).
-        - Para floats, considerar precisión de punto flotante en la representación.
+    - Versión actual: el radio es una constante en el código, sin validación
+      en tiempo de ejecución.
+    - Si se cambia a entrada dinámica, validar que `radio >= 0` y manejar
+      entradas no numéricas (capturar `ValueError`).
+    - Para floats, considerar precisión de punto flotante en la representación
+      y en los cálculos con `pi`.
 
 Revisión:
-        - 2026-05-02: Documentación completada; añadir validación si se habilita
-            entrada interactiva.
+    - 2026-05-02: Documentación completada con estructura estándar del
+      repositorio; incorpora uso de módulo `math`.
+    - Mejora didáctica: formato de salida con `.2f` para legibilidad en
+      contexto geométrico. Extensible a entrada dinámica con validación.
 """
 import math
 
 def main():
     """Calcular y mostrar el área de un círculo.
 
-    Usa una variable local `radio` (float) con valor constante, calcula el
-    área mediante `math.pi * radio**2` y formatea la salida por consola.
+    Define una variable `radio` (float) con valor constante, calcula el área
+    mediante la fórmula `math.pi * radio**2` y muestra el resultado con
+    formato decimal de dos posiciones para claridad geométrica.
 
     Returns:
         None
