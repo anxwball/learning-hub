@@ -18,6 +18,11 @@ Casos límite:
         - Una cadena vacía se considera palíndromo por comparación directa.
         - La comparación es sensible a mayúsculas, espacios y signos.
 
+Casos de uso:
+    - Validar nombres o frases simétricas en aplicaciones educativas.
+    - Detectar entradas que se leen igual en ambos sentidos.
+    - Implementar mini retos de verificación textual.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

@@ -18,6 +18,11 @@ Casos límite:
         - Si el valor no existe, `remove()` lanza `ValueError`.
         - Si hay duplicados, solo se elimina la primera coincidencia.
 
+Casos de uso:
+    - Quitar artículos agotados de un carrito o inventario temporal.
+    - Filtrar valores de listas de selección o listas negras.
+    - Actualizar colecciones dinámicas en interfaces de gestión.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

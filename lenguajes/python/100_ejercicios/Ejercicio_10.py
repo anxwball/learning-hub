@@ -22,6 +22,11 @@ Casos límite:
       de caracteres Unicode en Python y mantiene correctamente los símbolos.
     - Palíndromes: cadenas que son iguales invertidas (p. ej. "radar").
 
+Casos de uso:
+  - Validar palíndromos o simetrías simples en textos.
+  - Mostrar efectos de transformación de cadenas en interfaces educativas.
+  - Preparar contenido para análisis inverso o depuración textual.
+
 Revisión:
     - 2026-05-03: Normalizado el header y la documentación al formato
       común del repositorio.

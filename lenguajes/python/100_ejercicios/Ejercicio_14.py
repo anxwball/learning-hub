@@ -22,6 +22,11 @@ Casos límite:
         - El comportamiento depende de reglas Unicode para ciertos caracteres
             especiales.
 
+Casos de uso:
+    - Normalizar texto antes de búsquedas o filtros.
+    - Estandarizar etiquetas, usuarios o categorías.
+    - Preparar contenido para comparaciones sin sensibilidad de caso.
+
 Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """

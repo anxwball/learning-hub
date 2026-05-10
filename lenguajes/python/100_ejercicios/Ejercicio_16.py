@@ -18,6 +18,11 @@ Casos límite:
         - Al trabajar con exponentes fijos, no hay variaciones de entrada que
             alteren el comportamiento del ejemplo.
 
+Casos de uso:
+    - Aplicar cálculos de escalado en capacidad o presupuesto.
+    - Estimar crecimiento compuesto o expansión de recursos.
+    - Generar resultados de referencia para fórmulas fijas.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

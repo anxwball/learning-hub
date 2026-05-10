@@ -26,6 +26,11 @@ Casos límite:
     - Para floats, considerar precisión de punto flotante; para enteros,
       Python soporta precisión arbitraria.
 
+Casos de uso:
+  - Cálculo rápido de totales en presupuestos simples.
+  - Suma de métricas en reportes básicos de desempeño.
+  - Agregación de valores en formularios o simuladores educativos.
+
 Revisión:
     - 2026-05-02: Documentación inicial completada con estructura de
       enfoque, complejidad y casos límite. Ejemplifica patrón didáctico.

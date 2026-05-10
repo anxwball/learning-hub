@@ -17,6 +17,11 @@ Casos límite:
         - Si ambas variables tienen el mismo valor, el intercambio no cambia
             visualmente el resultado.
 
+Casos de uso:
+    - Reasignar valores en algoritmos de intercambio temporal.
+    - Rotar estados simples en simuladores o flujos de control.
+    - Simplificar lógica de reordenamiento de variables.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

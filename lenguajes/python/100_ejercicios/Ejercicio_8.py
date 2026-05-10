@@ -25,6 +25,11 @@ Casos límite:
     - Tupla con un solo elemento: requiere sintaxis especial `(x,)` para
       diferenciar de paréntesis de expresión.
 
+Casos de uso:
+  - Representar coordenadas o puntos fijos en mapas y gráficas.
+  - Guardar configuraciones que no deben cambiar durante la ejecución.
+  - Modelar registros inmutables en catálogos o resultados calculados.
+
 Revisión:
     - 2026-05-03: Ajustado header y documentación al formato estándar
       del repositorio.

@@ -17,6 +17,11 @@ Casos límite:
         - Los valores positivos se truncan hacia cero.
         - Los valores negativos también se truncan hacia cero al convertirlos.
 
+Casos de uso:
+        - Truncar valores en reportes o cuadros de mando.
+        - Convertir importes decimales a unidades enteras para conteos.
+        - Simplificar datos antes de agregarlos a sistemas legados.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

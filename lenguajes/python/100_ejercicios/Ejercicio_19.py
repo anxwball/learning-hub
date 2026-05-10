@@ -18,6 +18,11 @@ Casos límite:
         - Si el carácter no aparece, el conteo es cero.
         - Si la cadena está vacía, el resultado también es cero.
 
+Casos de uso:
+    - Contar palabras clave o caracteres en logs y textos.
+    - Analizar frecuencia de letras en validaciones o juegos.
+    - Detectar patrones repetidos en cadenas de datos.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

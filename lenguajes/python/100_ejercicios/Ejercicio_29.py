@@ -18,6 +18,11 @@ Casos límite:
         - Si una lista es más corta, el resultado se detiene al agotarse.
         - Con listas vacías, el resultado es vacío.
 
+Casos de uso:
+    - Emparejar datos de dos fuentes para comparaciones.
+    - Construir tablas rápidas de correspondencia clave-valor.
+    - Fusionar listas paralelas en reportes o vistas resumidas.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

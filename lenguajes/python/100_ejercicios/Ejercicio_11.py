@@ -23,8 +23,13 @@ Casos límite:
             geométrico normalmente se validaría `base >= 0` y `altura >= 0`.
         - Si `base` o `altura` es 0, el área resultante es 0.
 
+Casos de uso:
+    - Cálculo de áreas para diseño, arquitectura o jardinería.
+    - Estimar materiales en superficies circulares.
+    - Practicar fórmulas geométricas en cursos introductorios.
+
 Revisión:
-        - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
+    - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """
 
 def main():

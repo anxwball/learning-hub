@@ -19,6 +19,11 @@ Casos límite:
             directa.
         - Una lista vacía permanece vacía.
 
+Casos de uso:
+    - Limpiar catálogos de duplicados antes de publicar datos.
+    - Construir listas únicas de categorías o etiquetas.
+    - Reducir ruido en resultados de formularios o registros.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

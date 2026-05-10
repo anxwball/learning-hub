@@ -20,6 +20,11 @@ Casos límite:
         - Elementos duplicados se eliminan automáticamente por la naturaleza de
             los conjuntos.
 
+Casos de uso:
+    - Comparar grupos de permisos o etiquetas compartidas.
+    - Detectar coincidencias entre listas de elementos únicos.
+    - Unir e intersectar catálogos, filtros o perfiles.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

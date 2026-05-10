@@ -25,6 +25,11 @@ Casos límite:
     - Valores muy grandes: riesgo de overflow en otros lenguajes, pero
       Python maneja enteros de precisión arbitraria.
 
+Casos de uso:
+  - Calcular promedios de calificaciones o encuestas.
+  - Resumir indicadores de rendimiento en paneles simples.
+  - Obtener una métrica central para lotes de datos pequeños.
+
 Revisión:
     - 2026-05-03: Normalizado el header y la documentación al formato
       estándar del repositorio.

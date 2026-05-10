@@ -17,6 +17,11 @@ Casos límite:
         - Un valor igual a cero cae en la rama específica de cero.
         - Entradas no numéricas provocan `ValueError` durante la conversión.
 
+Casos de uso:
+    - Clasificar saldos, métricas o indicadores con umbral cero.
+    - Validar estados básicos en formularios financieros o educativos.
+    - Separar resultados en categorías de signo simple.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

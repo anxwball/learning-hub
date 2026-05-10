@@ -24,6 +24,11 @@ Casos límite:
     - Para floats, considerar precisión de punto flotante en la representación
       y en los cálculos con `pi`.
 
+Casos de uso:
+  - Estimar superficies de terrenos circulares o espacios físicos.
+  - Calcular material necesario para tapas, discos o paneles redondos.
+  - Generar ejemplos de fórmulas matemáticas en cursos introductorios.
+
 Revisión:
     - 2026-05-02: Documentación completada con estructura estándar del
       repositorio; incorpora uso de módulo `math`.

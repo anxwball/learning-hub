@@ -18,6 +18,11 @@ Casos límite:
         - Si el delimitador no existe, la lista contiene la cadena completa.
         - Separadores consecutivos pueden producir elementos vacíos.
 
+Casos de uso:
+    - Dividir líneas CSV o campos de formularios.
+    - Tokenizar texto para análisis o procesamiento básico.
+    - Separar parámetros simples en flujos de integración.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

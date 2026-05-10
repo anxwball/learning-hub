@@ -19,6 +19,11 @@ Casos límite:
             por 100.
         - Entradas no numéricas generan `ValueError` al convertir.
 
+Casos de uso:
+    - Validar calendarios, agendas o ciclos anuales.
+    - Comprobar años objetivo en recordatorios y reportes.
+    - Automatizar reglas temporales en aplicaciones educativas.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

@@ -24,6 +24,11 @@ Casos límite:
     - Para listas muy grandes, considerar el uso de memoria y potencial
       necesidad de optimización.
 
+Casos de uso:
+  - Registrar colecciones de datos heterogéneos en prototipos rápidos.
+  - Guardar filas temporales de formularios o lotes de importación.
+  - Modelar estructuras mixtas en ejercicios de aprendizaje básico.
+
 Revisión:
     - 2026-05-02: Documentación completada e incorporadas anotaciones de
       tipos con módulo `typing`.

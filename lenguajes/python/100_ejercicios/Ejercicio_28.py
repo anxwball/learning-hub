@@ -18,6 +18,11 @@ Casos límite:
         - Un índice fuera de rango provoca `IndexError`.
         - Para tuplas de un solo elemento, el índice válido es únicamente `0`.
 
+Casos de uso:
+    - Consultar coordenadas o valores de configuración fijos.
+    - Leer registros inmutables en catálogos o reportes.
+    - Recuperar campos concretos de una estructura estable.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

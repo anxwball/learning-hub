@@ -18,6 +18,11 @@ Casos límite:
         - Un multiplicador de cero produce una cadena vacía.
         - Un multiplicador negativo también produce una cadena vacía en Python.
 
+Casos de uso:
+    - Construir banners, separadores o contenido repetitivo en interfaces.
+    - Generar plantillas de texto con relleno simple.
+    - Repetir mensajes para prototipos o pruebas rápidas.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

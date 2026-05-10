@@ -20,6 +20,11 @@ Casos límite:
         - Para cadenas de un solo carácter, el último carácter coincide con el
             único elemento.
 
+Casos de uso:
+    - Revisar sufijos de códigos, archivos o tokens.
+    - Validar marcas finales en identificadores o cadenas de control.
+    - Extraer el carácter final para reglas simples de formato.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

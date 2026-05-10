@@ -24,6 +24,11 @@ Casos límite:
     - Para concatenaciones repetidas en bucles, preferir `str.join()` o
       acumuladores para evitar costes cuadráticos.
 
+Casos de uso:
+  - Construcción de mensajes automáticos en interfaces o notificaciones.
+  - Composición de nombres completos, títulos o rutas legibles.
+  - Unir fragmentos textuales en flujos de generación de contenido.
+
 Revisión:
     - 2026-05-02: Documentación completada con estructura estándar del
       repositorio; enfatiza operador `+` para cadenas.

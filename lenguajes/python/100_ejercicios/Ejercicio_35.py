@@ -17,6 +17,11 @@ Casos límite:
         - Los extremos 0 y 100 sí pertenecen al rango.
         - Entradas no numéricas provocan `ValueError` al convertir.
 
+Casos de uso:
+        - Comprobar si una puntuación cae dentro de un rango válido.
+        - Validar notas, porcentajes o indicadores de aceptación.
+        - Aplicar reglas de control sobre valores de entrada.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

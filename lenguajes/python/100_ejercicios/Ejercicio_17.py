@@ -19,6 +19,11 @@ Casos límite:
             lanzar error en la mayoría de los casos.
         - Una cadena vacía produciría subcadenas vacías.
 
+Casos de uso:
+    - Extraer códigos, prefijos o sufijos de identificadores.
+    - Parsear fragmentos de texto en flujos de integración.
+    - Mostrar subconjuntos de cadenas en vistas previas o análisis.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

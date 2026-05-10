@@ -24,19 +24,24 @@ Casos límite:
         - La operación distingue mayúsculas y minúsculas (`"o"` es distinto de
             `"O"`).
 
+Casos de uso:
+    - Limpieza de datos textuales antes de guardar o analizar.
+    - Anonimización de fragmentos sensibles en cadenas.
+    - Normalización de nombres, etiquetas o plantillas.
+
 Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """
 
 def main():
-        """Reemplazar un carácter en una cadena y mostrar el resultado.
+    """Reemplazar un carácter en una cadena y mostrar el resultado.
 
-        Crea una cadena de ejemplo, reemplaza un carácter usando `replace()` y
-        muestra tanto la versión original como la modificada.
+    Crea una cadena de ejemplo, reemplaza un carácter usando `replace()` y
+    muestra tanto la versión original como la modificada.
 
-        Returns:
-                None
-        """
+    Returns:
+            None
+    """
     cadena: str = "Python"
     nueva_cadena: str = cadena.replace("o", "x")
 

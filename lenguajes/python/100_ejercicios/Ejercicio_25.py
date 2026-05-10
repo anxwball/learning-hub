@@ -17,6 +17,11 @@ Casos límite:
         - Si el rango inicial supera al final, la lista resultante es vacía.
         - El ejemplo utiliza límites fijos para mantener la demostración simple.
 
+Casos de uso:
+        - Generar secuencias para pruebas, simulaciones o paginación.
+        - Crear datos de ejemplo para tableros o gráficos.
+        - Construir listas de rangos para procesamiento posterior.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

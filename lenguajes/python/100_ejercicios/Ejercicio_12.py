@@ -22,6 +22,11 @@ Casos límite:
         - Enteros muy grandes son válidos en Python, pero su representación como
             cadena crecerá proporcionalmente al número de dígitos.
 
+Casos de uso:
+    - Serializar números para reportes, logs o mensajes de interfaz.
+    - Convertir IDs o códigos numéricos a texto para composición.
+    - Preparar valores para APIs o almacenamiento textual.
+
 Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """

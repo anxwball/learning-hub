@@ -17,6 +17,11 @@ Casos límite:
         - Una cadena vacía no cumple la condición.
         - Exactamente 10 caracteres sí cumple la condición.
 
+Casos de uso:
+    - Validar longitudes mínimas para contraseñas o nombres.
+    - Revisar campos de texto antes de enviar formularios.
+    - Aplicar reglas de aceptación simples sobre contenido.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

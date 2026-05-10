@@ -26,6 +26,11 @@ Casos límite:
       enteros muy grandes (Python maneja precisión arbitraria con
       coste computacional creciente).
 
+Casos de uso:
+  - Modelar crecimiento compuesto o interés acumulado.
+  - Estimar escalados de potencia, capacidad o volumen.
+  - Calcular valores repetitivos en simulaciones matemáticas.
+
 Revisión:
     - 2026-05-03: Ajustado header y documentación al formato estándar
       del repositorio.

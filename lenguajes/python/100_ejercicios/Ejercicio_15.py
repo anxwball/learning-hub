@@ -23,6 +23,11 @@ Casos límite:
         - Para mezclar tipos no comparables (por ejemplo, `int` y `str`) se
             produciría `TypeError`.
 
+Casos de uso:
+    - Ordenar resultados de búsqueda, rankings o catálogos.
+    - Preparar datos para reportes o listas de prioridad.
+    - Estandarizar secuencias antes de exportarlas.
+
 Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """

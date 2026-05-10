@@ -23,6 +23,11 @@ Casos límite:
     - Caracteres especiales y multibyte (UTF-8): se cuentan correctamente
       según la representación Unicode en Python.
 
+Casos de uso:
+  - Validar longitudes mínimas en contraseñas o nombres de archivo.
+  - Medir campos de texto en formularios y APIs.
+  - Comprobar tamaños de entradas antes de persistir datos.
+
 Revisión:
     - 2026-05-03: Normalizado el header y la documentación al formato
       estándar del repositorio.

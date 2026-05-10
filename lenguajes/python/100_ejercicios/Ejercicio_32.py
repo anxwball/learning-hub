@@ -17,6 +17,11 @@ Casos límite:
         - El cero se considera par.
         - Entradas no numéricas generan `ValueError` en la conversión.
 
+Casos de uso:
+    - Distribuir elementos en lotes pares o impares.
+    - Alternar turnos, filas o asignaciones simples.
+    - Clasificar números en reglas de partición básica.
+
 Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """

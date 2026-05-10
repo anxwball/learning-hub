@@ -24,6 +24,11 @@ Casos límite:
     - Para floats, considerar precisión de punto flotante; para enteros,
       Python soporta precisión arbitraria.
 
+Casos de uso:
+  - Calcular escalados de precios, cantidades o presupuestos.
+  - Estimar crecimiento proporcional en simulaciones simples.
+  - Repetir operaciones de dimensionamiento en ejercicios técnicos.
+
 Revisión:
     - 2026-05-03: Documentación completada con estructura estándar. Docstring
       de `main()` mejorado para claridad.
