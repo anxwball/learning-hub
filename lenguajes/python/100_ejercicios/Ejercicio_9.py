@@ -2,7 +2,7 @@
 Problema  : Realizar la potencia de un número.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, operadores
+Etiquetas : fundamentos, operadores, aritmética
 Fecha     : 2026-05-03
 Estado    : resuelto
 
