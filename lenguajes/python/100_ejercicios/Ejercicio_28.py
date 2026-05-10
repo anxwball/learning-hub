@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Extraer un elemento de una tupla y mostrarlo.
 
     Toma un valor concreto de la tupla de ejemplo usando su índice y lo
@@ -36,8 +36,8 @@ def main():
     Returns:
         None
     """
-    tupla = (1, 2, 3, 4, 5)
-    elemento = tupla[2]  # Extraer el elemento en la posición 2 (valor 3)
+    tupla: tuple[int, int, int, int, int] = (1, 2, 3, 4, 5)
+    elemento: int = tupla[2]  # Extraer el elemento en la posición 2 (valor 3)
     print(f"Tupla original: {tupla}")
     print(f"Elemento extraído: {elemento}")
 

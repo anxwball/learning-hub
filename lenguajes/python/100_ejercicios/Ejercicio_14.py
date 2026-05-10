@@ -31,7 +31,7 @@ Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Convertir una cadena a minúsculas y mostrar el resultado.
 
     Toma una cadena de ejemplo en mayúsculas, aplica `lower()` y muestra por

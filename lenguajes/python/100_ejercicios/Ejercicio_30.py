@@ -28,7 +28,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Eliminar duplicados de una lista y mostrar el resultado.
 
     Convierte la lista de ejemplo en un conjunto para filtrar repeticiones y
@@ -37,8 +37,8 @@ def main():
     Returns:
         None
     """
-    lista_con_duplicados = [1, 2, 2, 3, 4, 4, 5]
-    lista_sin_duplicados = list(set(lista_con_duplicados)) #set() elimina duplicados, luego se convierte de nuevo a lista
+    lista_con_duplicados: list[int] = [1, 2, 2, 3, 4, 4, 5]
+    lista_sin_duplicados: list[int] = list(set(lista_con_duplicados)) #set() elimina duplicados, luego se convierte de nuevo a lista
     print(f"Lista original con duplicados: {lista_con_duplicados}")
     print(f"Lista sin duplicados: {lista_sin_duplicados}")
 

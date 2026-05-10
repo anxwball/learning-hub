@@ -23,23 +23,23 @@ Casos límite:
             cadena crecerá proporcionalmente al número de dígitos.
 
 Casos de uso:
-    - Serializar números para reportes, logs o mensajes de interfaz.
-    - Convertir IDs o códigos numéricos a texto para composición.
-    - Preparar valores para APIs o almacenamiento textual.
+        - Serializar números para reportes, logs o mensajes de interfaz.
+        - Convertir IDs o códigos numéricos a texto para composición.
+        - Preparar valores para APIs o almacenamiento textual.
 
 Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
-        """Convertir un entero a cadena y mostrar el tipo resultante.
+def main() -> None:
+    """Convertir un entero a cadena y mostrar el tipo resultante.
 
-        Lee un número entero desde consola, imprime su tipo original, lo convierte
-        a `str` y muestra nuevamente el tipo para evidenciar el cambio.
+    Lee un número entero desde consola, imprime su tipo original, lo convierte
+    a `str` y muestra nuevamente el tipo para evidenciar el cambio.
 
-        Returns:
-                None
-        """
+    Returns:
+        None
+    """
     print("\nConvertir un número entero en una cadena\n")
     numero: int = int(input("Ingrese un número entero: "))
     print(f"El tipo actual de número es: {type(numero)}")

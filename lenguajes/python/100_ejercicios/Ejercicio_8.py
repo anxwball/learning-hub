@@ -37,7 +37,7 @@ Revisión:
       respecto a listas.
 """
 
-def main():
+def main() -> None:
     """Crear una tupla de ejemplo y mostrar su contenido.
 
     Define una tupla heterog\u00e9nea (contiene m\u00faltiples tipos: str, int,

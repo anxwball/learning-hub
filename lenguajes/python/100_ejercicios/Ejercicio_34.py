@@ -26,7 +26,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Verificar la longitud de una cadena y mostrar el resultado.
 
     Compara la longitud de una cadena de ejemplo con el valor 10 y muestra un

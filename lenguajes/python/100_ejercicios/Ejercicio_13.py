@@ -33,7 +33,7 @@ Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Reemplazar un carácter en una cadena y mostrar el resultado.
 
     Crea una cadena de ejemplo, reemplaza un carácter usando `replace()` y

@@ -36,7 +36,7 @@ Revisión:
       Extensible a entrada dinámica con validación de tipos.
 """
 
-def main():
+def main() -> None:
     """Concatenar dos cadenas y mostrar el resultado.
 
     Define dos variables de cadena con valores constantes, concatena ambas
@@ -46,9 +46,9 @@ def main():
     Returns:
         None
     """
-    cadena_1 = "Hola"
-    cadena_2 = "Mundo!!"
-    concatenacion = cadena_1 + " " + cadena_2
+    cadena_1: str = "Hola"
+    cadena_2: str = "Mundo!!"
+    concatenacion: str = cadena_1 + " " + cadena_2
 
     print(f"La cadena es: {concatenacion}")
 

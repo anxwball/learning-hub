@@ -35,7 +35,7 @@ Revisión:
       facilitando comprensión de eficiencia.
 """
 
-def main():
+def main() -> None:
     """Calcular y mostrar la longitud de una cadena.
 
     Define una cadena de ejemplo, calcula su longitud con la función

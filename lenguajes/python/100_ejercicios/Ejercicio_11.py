@@ -32,7 +32,7 @@ Revisión:
     - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Calcular y mostrar el área de un rectángulo.
 
     Pide al usuario la base y la altura, convierte ambos valores a `float`,

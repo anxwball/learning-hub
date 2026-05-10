@@ -37,7 +37,7 @@ Revisión:
 """
 from typing import List, Union
 
-def main():
+def main() -> None:
     """Crear y mostrar una lista con elementos de distintos tipos.
 
     Define una lista local `lista_1` que contiene varios tipos (`int`,

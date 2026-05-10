@@ -36,7 +36,7 @@ Revisión:
       entre operadores aritméticos binarios básicos.
 """
 
-def main():
+def main() -> None:
     """Multiplicar dos números y mostrar el resultado.
 
     Crea dos variables enteras locales (`a`, `b`) con valores predefinidos,

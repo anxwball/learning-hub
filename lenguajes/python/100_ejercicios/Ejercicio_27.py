@@ -29,7 +29,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Mostrar unión e intersección de conjuntos.
 
     Crea dos conjuntos de ejemplo y muestra sus operaciones básicas para
@@ -38,11 +38,11 @@ def main():
     Returns:
         None
     """
-    conjunto_a = {1, 2, 3, 4}
-    conjunto_b = {3, 4, 5, 6}
+    conjunto_a: set[int] = {1, 2, 3, 4}
+    conjunto_b: set[int] = {3, 4, 5, 6}
 
-    union = conjunto_a.union(conjunto_b)
-    interseccion = conjunto_a.intersection(conjunto_b)
+    union: set[int] = conjunto_a.union(conjunto_b)
+    interseccion: set[int] = conjunto_a.intersection(conjunto_b)
 
     print(f"Conjunto A: {conjunto_a}")
     print(f"Conjunto B: {conjunto_b}")

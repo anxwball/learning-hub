@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Verificar si una cadena es un palíndromo.
 
     Compara la cadena original con su versión invertida y muestra si cumple
@@ -36,8 +36,8 @@ def main():
     Returns:
         None
     """
-    palabra = "radar"
-    es_palindromo = palabra == palabra[::-1]
+    palabra: str = "radar"
+    es_palindromo: bool = palabra == palabra[::-1]
     print(f"Palabra: {palabra}.")
     if es_palindromo:
         print(f"La palabra \"{palabra}\" es un palíndromo.")

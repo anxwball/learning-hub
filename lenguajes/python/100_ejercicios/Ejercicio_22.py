@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Dividir una cadena y mostrar las subcadenas.
 
     Usa `split()` para separar el texto de ejemplo en una lista de palabras y
@@ -36,8 +36,8 @@ def main():
     Returns:
         None
     """
-    cadena = "Python es genial!"
-    subcadenas = cadena.split()
+    cadena: str = "Python es genial!"
+    subcadenas: list[str] = cadena.split()
 
     print(f"Cadena original: {cadena}")
     print(f"Subcadenas: {subcadenas}")

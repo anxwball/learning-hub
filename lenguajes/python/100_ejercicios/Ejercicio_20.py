@@ -29,7 +29,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Obtener y mostrar el último carácter de una cadena de ejemplo.
 
     Usa el índice `-1` para acceder al último carácter de la cadena.

@@ -34,7 +34,7 @@ Revisión:
       de operaciones con cadenas respecto a enfoque iterativo.
 """
 
-def main():
+def main() -> None:
     """Invertir una cadena y mostrar el resultado.
 
     Crea una cadena de ejemplo, invierte su contenido mediante slicing

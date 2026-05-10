@@ -38,7 +38,7 @@ Revisión:
       de tipos y manejo de errores si se desea mayor interactividad.
 """
 
-def main():
+def main() -> None:
     """Sumar dos números y mostrar el resultado.
 
     Crea dos variables enteras locales (`a`, `b`) con valores predefinidos,

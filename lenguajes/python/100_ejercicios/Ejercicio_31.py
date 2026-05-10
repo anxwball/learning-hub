@@ -26,7 +26,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Clasificar un número por su signo y mostrar el resultado.
 
     Solicita un número por consola y evalúa si es positivo, negativo o cero.

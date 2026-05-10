@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Eliminar un elemento de una lista y mostrar el resultado.
 
     Aplica `remove()` sobre la lista de ejemplo para quitar el valor
@@ -36,8 +36,8 @@ def main():
     Returns:
         None
     """
-    lista = [1, 2, 3, 4, 5]
-    lista_nueva = lista.copy()  # Copiar la lista para no modificar la original
+    lista: list[int] = [1, 2, 3, 4, 5]
+    lista_nueva: list[int] = lista.copy()  # Copiar la lista para no modificar la original
     lista_nueva.remove(3)
     print(f"Lista original: {lista}")
     print(f"Lista después de eliminar el elemento 3: {lista_nueva}")

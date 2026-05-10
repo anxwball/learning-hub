@@ -26,7 +26,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Determinar si un número es par o impar.
 
     Solicita un número por consola, aplica el módulo 2 y muestra su

@@ -26,7 +26,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Comprobar si un número está en el rango de 0 a 100.
 
     Solicita un valor por consola y verifica si pertenece al intervalo usando

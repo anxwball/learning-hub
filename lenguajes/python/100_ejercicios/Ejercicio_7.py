@@ -37,7 +37,7 @@ Revisión:
       básica, patrón reutilizable.
 """
 
-def main():
+def main() -> None:
     """Calcular y mostrar el promedio de una lista de números.
 
     Define una lista de enteros, calcula su promedio dividiendo la suma

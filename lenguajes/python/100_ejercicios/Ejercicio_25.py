@@ -8,7 +8,7 @@ Estado    : resuelto
 
 Enfoque:
         - Construir una lista con `range()` y convertirla a `list` para mostrar
-            una secuencia completa de enteros.
+          una secuencia completa de enteros.
 
 Complejidad: Tiempo O(n) | Espacio O(n)
         - El rango genera `n` valores y la lista final ocupa memoria lineal.
@@ -26,17 +26,19 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
-    """Generar una lista de números y mostrarla.
 
-    Crea una lista con los números del 1 al 200 usando `range()` y la imprime
-    por consola.
+def main() -> None:
+        """Generar una lista de números y mostrarla.
 
-    Returns:
-        None
-    """
-    numeros = list(range(1, 201))
-    print(numeros)
+        Crea una lista con los números del 1 al 200 usando `range()` y la imprime
+        por consola.
+
+        Returns:
+                None
+        """
+        numeros: list[int] = list(range(1, 201))
+        print(numeros)
+
 
 if __name__ == '__main__':
-    main()
+        main()

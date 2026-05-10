@@ -37,7 +37,7 @@ Revisión:
 """
 import math
 
-def main():
+def main() -> None:
     """Calcular y mostrar el área de un círculo.
 
     Define una variable `radio` (float) con valor constante, calcula el área

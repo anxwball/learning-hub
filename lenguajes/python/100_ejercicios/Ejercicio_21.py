@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Multiplicar una cadena y mostrar el resultado.
 
     Usa el operador `*` para repetir una cadena varias veces y mostrar la

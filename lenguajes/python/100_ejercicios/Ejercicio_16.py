@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Calcular 2 elevado a la 4a potencia y mostrar el resultado.
 
     Usa `pow(2, 4)` para obtener el valor sin recurrir al operador `**`.

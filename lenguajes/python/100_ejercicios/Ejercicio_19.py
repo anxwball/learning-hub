@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Contar la ocurrencia de un carácter en una cadena de ejemplo.
 
     Usa `count()` para mostrar cuántas veces aparece la letra `a`.
@@ -35,8 +35,8 @@ def main():
     Returns:
         None
     """
-    cadena = "Programación"
-    ocurrencias = cadena.count("a")
+    cadena: str = "Programación"
+    ocurrencias: int = cadena.count("a")
 
     print(f"Cadena: {cadena}")
     print(f"Ocurrencias de 'a' en la cadena: {ocurrencias}")

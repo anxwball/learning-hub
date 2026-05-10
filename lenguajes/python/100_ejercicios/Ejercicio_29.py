@@ -27,7 +27,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Combinar dos listas en pares y mostrar el resultado.
 
     Usa `zip()` para emparejar dos listas de ejemplo y mostrar cada par como
@@ -36,9 +36,9 @@ def main():
     Returns:
         None
     """
-    lista1 = [1, 2, 3]
-    lista2 = ['a', 'b', 'c']
-    combinada = list(zip(lista1, lista2)) #zip() combina las listas en pares, luego se convierte a lista para mostrar el resultado
+    lista1: list[int] = [1, 2, 3]
+    lista2: list[str] = ['a', 'b', 'c']
+    combinada: list[tuple[int, str]] = list(zip(lista1, lista2)) #zip() combina las listas en pares, luego se convierte a lista para mostrar el resultado
     print(f"Lista 1: {lista1}")
     print(f"Lista 2: {lista2}")
     print(f"Listas combinadas: {combinada}")

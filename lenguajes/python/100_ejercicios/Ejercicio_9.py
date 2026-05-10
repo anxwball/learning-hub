@@ -38,7 +38,7 @@ Revisión:
       extensible a validación de entrada con manejo de excepciones.
 """
 
-def main():
+def main() -> None:
     """Calcular y mostrar la potencia de un número.
 
     Define una base y un exponente con valores constantes, calcula la

@@ -28,7 +28,7 @@ Revisión:
         - 2026-05-10: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Determinar si un año es bisiesto y mostrar el resultado.
 
     Solicita un año por consola y aplica las reglas de bisiesto para mostrar

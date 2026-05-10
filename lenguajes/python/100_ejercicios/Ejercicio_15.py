@@ -32,7 +32,7 @@ Revisión:
         - 2026-05-09: Encabezado y docstring normalizados al formato de la serie.
 """
 
-def main():
+def main() -> None:
     """Ordenar una lista de números y mostrarla por consola.
 
     Define una lista de enteros, la ordena en orden ascendente con `sort()` y
@@ -41,7 +41,7 @@ def main():
     Returns:
         None
     """
-    lista = [812,3231,53,1,0,965]
+    lista: list[int] = [812, 3231, 53, 1, 0, 965]
     lista.sort()
 
     print(f"Lista ordenada: {lista}")
