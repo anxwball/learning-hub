@@ -4,7 +4,7 @@ Problema  : Solicitar al usuario un número N y mostrar el factorial de
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
 Etiquetas : fundamentos, bucles, aritmética, factoriales
-Fecha     : 2026-05-02
+Fecha     : 2026-05-10
 Estado    : resuelto
 
 Enfoque:
