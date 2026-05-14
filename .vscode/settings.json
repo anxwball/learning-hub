@@ -22,5 +22,6 @@
     "**/dist": true,
     "**/build": true
   },
-  "python.analysis.languageServerMode": "light"
+  "python.analysis.languageServerMode": "light",
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }
