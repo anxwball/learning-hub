@@ -20,6 +20,19 @@ Colección de ejercicios prácticos de Python basada en la serie
 - Rango actual: **1 al 50**
 - Objetivo final: **100 ejercicios**
 
+## Conceptos abarcados
+
+- Fundamentos de Python (variables, tipos y operaciones básicas)
+- Operadores aritméticos y lógicos
+- Cadenas y métodos de string
+- Conversión de tipos
+- Estructuras de datos básicas: listas, tuplas y conjuntos
+- Condicionales y control de flujo
+- Bucles e iteración
+- Entrada/salida por consola
+- Prácticas de matemática aplicada (geometría, factoriales, tablas, acumulación)
+- Ejercicios con aleatoriedad y simulación simple
+
 ## Ejecución
 
 Desde la raíz del repositorio:
