@@ -1,10 +1,18 @@
 # Mi Learning Hub Personal
 
+## Descripción
+
 Repositorio personal de aprendizaje. Reúne mis ejercicios, notas y
 recursos. No está pensado para uso externo ni para contribuciones de
 terceros.
 
-## Estructura
+## Estado
+
+- Repositorio activo y en crecimiento continuo.
+- La ruta con mayor avance actual es Python, con la serie completa de
+    `100_ejercicios`.
+
+## Estructura principal
 
 Carpetas en la raíz del proyecto:
 
@@ -32,3 +40,14 @@ Carpetas en la raíz del proyecto:
 - `redes/`: apuntes y prácticas de redes de computadoras.
 - `sistemas-operativos/`: conceptos y material de estudio sobre sistemas
     operativos.
+
+## Uso rápido
+
+- Punto de entrada por área: revisa primero los `README.md` dentro de cada
+    módulo (por ejemplo, `lenguajes/README.md` y `lenguajes/python/README.md`).
+- Para ejecutar ejercicios de Python: utiliza los comandos indicados en
+    `lenguajes/python/README.md`.
+
+## Última actualización
+
+2026-05-17
