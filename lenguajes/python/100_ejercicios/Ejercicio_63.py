@@ -2,7 +2,7 @@
 Problema  : Escribir una función para generar un mensaje de saludo personalizado.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, cadenas, f-strings, personalización
+Etiquetas : fundamentos, cadenas, f-strings, personalizacion
 Fecha     : 2026-05-13
 Estado    : resuelto
 

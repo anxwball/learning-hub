@@ -2,7 +2,7 @@
 Problema  : Solicitar al usuario un número y contar cuántos dígitos tiene.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, números, aritmética
+Etiquetas : fundamentos, aritmetica
 Fecha     : 2026-05-10
 Estado    : resuelto
 

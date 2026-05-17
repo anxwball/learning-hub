@@ -2,7 +2,7 @@
 Problema  : Calcular el área de un círculo dado su radio.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, geometría, matemáticas
+Etiquetas : fundamentos, geometria, matematicas
 Fecha     : 2026-05-02
 Estado    : resuelto
 

@@ -2,7 +2,7 @@
 Problema  : Escribir en un archivo HTML "Hola! Que tal autodidacta!"
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : archivos, HTML, I/O, web
+Etiquetas : archivos, html, io, web
 Fecha     : 2026-05-17
 Estado    : resuelto
 

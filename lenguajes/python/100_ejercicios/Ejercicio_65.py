@@ -2,7 +2,7 @@
 Problema  : Crear una función para convertir grados Celsius a Fahrenheit.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, conversión, aritmética, temperatura
+Etiquetas : fundamentos, conversion-tipos, aritmetica, temperatura
 Fecha     : 2026-05-13
 Estado    : resuelto
 

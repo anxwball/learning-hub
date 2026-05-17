@@ -2,7 +2,7 @@
 Problema  : Representar una cuenta bancaria. Debe tener depósito, retiro, titular, saldo. Utilizar POO.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : POO, encapsulación, manejo de dinero, validación
+Etiquetas : poo, encapsulacion, manejo-de-dinero, validacion
 Fecha     : 2026-05-13
 Estado    : resuelto
 

@@ -31,3 +31,10 @@ Revisión:
   - Nota 1
   - Nota 2
 ```
+
+## Reglas rápidas
+
+- `Etiquetas`: usar minúsculas y `kebab-case` (por ejemplo, `manejo-errores`, `consultas-sql`, `bases-de-datos`).
+- Evitar tildes y caracteres especiales en etiquetas.
+- Separar etiquetas con coma y espacio: `etiqueta-1, etiqueta-2, etiqueta-3`.
+- `Fecha`: usar siempre formato `YYYY-MM-DD`.

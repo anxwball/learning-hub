@@ -2,7 +2,7 @@
 Problema  : Calcular la longitud de una lista de palabras utilizando map().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, map, análisis-de-strings
+Etiquetas : fundamentos, map, analisis-de-strings
 Fecha     : 2026-05-17
 Estado    : resuelto
 

@@ -21,6 +21,7 @@ Colección de ejercicios prácticos de Python basada en la serie
 - Ejemplos actuales: `Ejercicio_1.py` ... `Ejercicio_100.py`
 - Cada ejercicio incluye un encabezado descriptivo siguiendo la plantilla del
   repositorio en `recursos/ENCABEZADO_EJERCICIOS.md`
+- Referencia de etiquetas de conceptos: ver `README_ETIQUETAS.md`
 
 ## Conceptos abarcados
 

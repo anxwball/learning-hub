@@ -2,7 +2,7 @@
 Problema  : Filtrar cadenas que contienen un carácter específico usando filter().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, filter, búsqueda-de-strings
+Etiquetas : fundamentos, filter, busqueda-de-strings
 Fecha     : 2026-05-17
 Estado    : resuelto
 

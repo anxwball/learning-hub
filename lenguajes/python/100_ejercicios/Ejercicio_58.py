@@ -2,7 +2,7 @@
 Problema  : Multiplicar todos los elementos de una lista por 2 usando un bucle for.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, bucles, transformación, operadores aritméticos
+Etiquetas : fundamentos, bucles, transformacion, aritmetica
 Fecha     : 2026-05-13
 Estado    : resuelto
 

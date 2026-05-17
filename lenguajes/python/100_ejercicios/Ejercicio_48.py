@@ -2,7 +2,7 @@
 Problema  : Simular el lanzamiento de una moneda.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, aleatorio, simulación
+Etiquetas : fundamentos, aleatoriedad, simulacion
 Fecha     : 2026-05-10
 Estado    : resuelto
 

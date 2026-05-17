@@ -2,7 +2,7 @@
 Problema  : Crear clases Persona y Estudiante (herencia). Persona: atributo nombre, método mostrar_nombre(). Estudiante hereda y usa el método.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : herencia, POO, super()
+Etiquetas : herencia, poo, super
 Fecha     : 2026-05-13
 Estado    : resuelto
 

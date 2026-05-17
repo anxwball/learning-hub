@@ -2,7 +2,7 @@
 Problema  : Filtrar cadenas de longitud mayor que 3 usando filter().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, filter, validación-de-strings
+Etiquetas : fundamentos, filter, validacion-de-strings
 Fecha     : 2026-05-17
 Estado    : resuelto
 

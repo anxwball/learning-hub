@@ -2,7 +2,7 @@
 Problema  : Mostrar los números del 1 al 100 con la regla FizzBuzz.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, bucles, condiciones
+Etiquetas : fundamentos, bucles, condicionales
 Fecha     : 2026-05-10
 Estado    : resuelto
 

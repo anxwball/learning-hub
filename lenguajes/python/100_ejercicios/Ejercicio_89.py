@@ -2,7 +2,7 @@
 Problema  : Comprobar si una palabra es palíndromo usando lambda.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, lambda, validación-de-strings
+Etiquetas : fundamentos, lambda, validacion-de-strings
 Fecha     : 2026-05-17
 Estado    : resuelto
 

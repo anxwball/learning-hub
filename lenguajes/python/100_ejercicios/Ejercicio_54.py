@@ -2,7 +2,7 @@
 Problema  : Imprimir los caracteres de una cadena con "for".
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, cadenas, iteración, caracteres
+Etiquetas : fundamentos, cadenas, iteracion, caracteres
 Fecha     : 2026-05-13
 Estado    : resuelto
 

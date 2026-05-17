@@ -2,7 +2,7 @@
 Problema  : Elevar un número al cuadrado utilizando lambda.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, lambda, operaciones-matemáticas
+Etiquetas : fundamentos, lambda, aritmetica
 Fecha     : 2026-05-17
 Estado    : resuelto
 

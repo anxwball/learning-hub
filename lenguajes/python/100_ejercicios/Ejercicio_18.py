@@ -2,7 +2,7 @@
 Problema  : Convertir un número decimal a un número entero.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, conversion-de-tipos
+Etiquetas : fundamentos, conversion-tipos
 Fecha     : 2026-05-10
 Estado    : resuelto
 

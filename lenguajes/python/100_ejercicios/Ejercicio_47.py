@@ -2,7 +2,7 @@
 Problema  : Hacer un menú con suma y resta; el usuario elige la operación.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, entrada, operaciones, aritmética
+Etiquetas : fundamentos, entrada, aritmetica
 Fecha     : 2026-05-10
 Estado    : resuelto
 

@@ -2,7 +2,7 @@
 Problema  : Filtrar números no negativos de una lista usando filter().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, filter, validación
+Etiquetas : fundamentos, filter, validacion
 Fecha     : 2026-05-17
 Estado    : resuelto
 

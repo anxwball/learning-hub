@@ -3,7 +3,7 @@ Problema  : Solicitar un número N al usuario y mostrar la tabla de
             multiplicar de ese número desde 1 hasta 12.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, bucles, tablas de multiplicar, aritmética
+Etiquetas : fundamentos, bucles, tablas-de-multiplicar, aritmetica
 Fecha     : 2026-05-10
 Estado    : resuelto
 

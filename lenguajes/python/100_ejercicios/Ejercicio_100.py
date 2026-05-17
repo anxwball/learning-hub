@@ -2,7 +2,7 @@
 Problema  : Conectarse a una base de datos MySQL, hacer una consulta a una tabla y mostrar la información en la consola.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : bases-de-datos, POO, consultas-SQL, MySQL
+Etiquetas : bases-de-datos, poo, consultas-sql, mysql
 Fecha     : 2026-05-17
 Estado    : resuelto
 

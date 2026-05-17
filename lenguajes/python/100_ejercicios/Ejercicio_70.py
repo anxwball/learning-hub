@@ -2,7 +2,7 @@
 Problema  : Función para clasificar el pH de una sustancia (ácida, neutra o básica).
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, química, clasificación, validación, rango
+Etiquetas : fundamentos, quimica, clasificacion, validacion, rango
 Fecha     : 2026-05-13
 Estado    : resuelto
 

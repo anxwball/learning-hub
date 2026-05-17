@@ -2,7 +2,7 @@
 Problema  : Crear una clase Rectangulo con atributos base, altura. Métodos: constructor, calcular_area(), calcular_perimetro().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : POO, geometría, métodos
+Etiquetas : poo, geometria, metodos
 Fecha     : 2026-05-13
 Estado    : resuelto
 

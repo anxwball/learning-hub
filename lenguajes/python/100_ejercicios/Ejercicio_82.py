@@ -2,7 +2,7 @@
 Problema  : Convertir una lista de cadenas que sean números a enteros usando map().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, conversión-tipos, map
+Etiquetas : fundamentos, conversion-tipos, map
 Fecha     : 2026-05-17
 Estado    : resuelto
 

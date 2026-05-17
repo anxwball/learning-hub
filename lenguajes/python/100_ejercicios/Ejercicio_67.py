@@ -2,7 +2,7 @@
 Problema  : Crear una función para calcular el volumen de un cilindro.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, geometría, fórmulas, módulo math, entrada de usuario
+Etiquetas : fundamentos, geometria, formulas, modulo-math, entrada-usuario
 Fecha     : 2026-05-13
 Estado    : resuelto
 

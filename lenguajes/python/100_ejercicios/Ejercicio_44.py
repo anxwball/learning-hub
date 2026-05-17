@@ -3,7 +3,7 @@ Problema  : Generar un número aleatorio entre 1 y 10; luego solicitar al
             usuario que adivine el número hasta que lo logre.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, bucles, aleatoriedad, entrada interactiva
+Etiquetas : fundamentos, bucles, aleatoriedad, entrada-usuario
 Fecha     : 2026-05-10
 Estado    : resuelto
 

@@ -2,7 +2,7 @@
 Problema  : Crear clase Persona con getters/setters, constructor (datos opcionales), mostrar(), es_mayor_de_edad().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : POO, propiedades, encapsulación, decoradores
+Etiquetas : poo, propiedades, encapsulacion, decoradores
 Fecha     : 2026-05-13
 Estado    : resuelto
 

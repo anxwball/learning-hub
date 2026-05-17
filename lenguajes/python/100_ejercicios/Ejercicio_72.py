@@ -2,7 +2,7 @@
 Problema  : Crear una clase Circulo con atributo radio. Métodos: constructor, area(), perimetro().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : POO, geometría, constantes matemáticas
+Etiquetas : poo, geometria, constantes-matematicas
 Fecha     : 2026-05-13
 Estado    : resuelto
 

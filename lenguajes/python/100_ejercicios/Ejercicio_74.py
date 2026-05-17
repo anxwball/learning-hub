@@ -2,7 +2,7 @@
 Problema  : Crear una clase Persona con atributos: nombre, edad, dni. Métodos: constructor, es_mayor_de_edad().
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : POO, lógica condicional, validación
+Etiquetas : poo, condicionales, validacion
 Fecha     : 2026-05-13
 Estado    : resuelto
 

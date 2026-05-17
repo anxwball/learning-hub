@@ -3,7 +3,7 @@ Problema  : Solicitar un número N al usuario y mostrar la suma de todos
             los números desde 1 hasta ese número.
 Fuente    : Entrenamiento Python con 100 Ejercicios - Facultad Autodidacta
 Plataforma: Youtube (https://youtube.com/playlist?list=PLoRfWwOOv4jyO61oMnqpD6i_0GBNXqzTZ&si=K9eMCCoefGVWzqB0)
-Etiquetas : fundamentos, bucles, aritmética, acumulación
+Etiquetas : fundamentos, bucles, aritmetica, acumulacion
 Fecha     : 2026-05-10
 Estado    : resuelto
 
