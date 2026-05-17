@@ -2,8 +2,7 @@
 
 ## Descripción
 
-Módulo de aprendizaje en Python con ejercicios prácticos y estructura para
-seguir ampliando contenido.
+Contiene ejercicios prácticos y material estructurado para el estudio y la ampliación de contenido en Python.
 
 ## Ubicación
 
@@ -12,7 +11,7 @@ seguir ampliando contenido.
 ## Estado
 
 - Módulo activo con la serie de 100 ejercicios disponible.
-- Base preparada para ampliar pruebas automatizadas y nuevos contenidos.
+- Preparado para incorporar pruebas automatizadas y nuevos contenidos.
 
 ## Estructura
 

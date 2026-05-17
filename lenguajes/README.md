@@ -2,8 +2,7 @@
 
 ## Descripción
 
-Sección del repositorio dedicada a ejercicios, ejemplos y práctica por
-lenguaje de programación.
+Contiene ejercicios, ejemplos y material de práctica organizados por lenguaje de programación.
 
 ## Ubicación
 
@@ -12,17 +11,16 @@ lenguaje de programación.
 ## Estado
 
 - Módulo activo para organizar la práctica por lenguaje.
-- Actualmente incluye rutas para JavaScript y Python.
+- Incluye rutas para JavaScript y Python.
 
 ## Estructura
 
-- `javascript/`: espacio para contenido de práctica y aprendizaje en JavaScript.
+- `javascript/`: contenido de práctica y aprendizaje en JavaScript.
 - `python/`: ejercicios y recursos de práctica en Python.
 
 ## Uso rápido
 
-- Python: ver `lenguajes/python/README.md` para detalles de estructura y
-  ejecución.
+- Para Python, consultar `lenguajes/python/README.md` para estructura y ejecución.
 
 ## Última actualización
 

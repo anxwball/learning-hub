@@ -2,7 +2,7 @@
 
 ## Convención de escritura
 
-- minusculas
+- minúsculas
 - kebab-case
 - sin tildes ni caracteres especiales
 

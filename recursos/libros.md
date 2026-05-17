@@ -1,3 +1,3 @@
 # Libros recomendados
 
-**Sin registros todavía.**
+No hay registros por el momento.
