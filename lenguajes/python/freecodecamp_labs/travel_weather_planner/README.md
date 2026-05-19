@@ -6,7 +6,7 @@ Este laboratorio usa condicionales para determinar si un desplazamiento es posib
 
 ## Ubicación
 
-`lenguajes/python/freecodecamp_labs/travel_weather_planer`
+`lenguajes/python/freecodecamp_labs/travel_weather_planner`
 
 ## Estado
 
@@ -81,7 +81,7 @@ Cumple las historias de usuario siguientes y haz que todas las pruebas pasen par
 Desde la raíz del repositorio:
 
 ```bash
-python lenguajes/python/freecodecamp_labs/travel_weather_planer/main.py
+python lenguajes/python/freecodecamp_labs/travel_weather_planner/main.py
 ```
 
 ## Última actualización
