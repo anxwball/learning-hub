@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Contiene ejercicios, ejemplos y material de práctica organizados por lenguaje de programación.
+Contiene ejercicios, laboratorios, ejemplos y material de práctica organizados por lenguaje de programación.
 
 ## Ubicación
 
@@ -11,12 +11,12 @@ Contiene ejercicios, ejemplos y material de práctica organizados por lenguaje d
 ## Estado
 
 - Módulo activo para organizar la práctica por lenguaje.
-- Incluye rutas para JavaScript y Python.
+- Incluye rutas para JavaScript y Python, con ejercicios y laboratorios de práctica.
 
 ## Estructura
 
 - `javascript/`: contenido de práctica y aprendizaje en JavaScript.
-- `python/`: ejercicios y recursos de práctica en Python.
+- `python/`: ejercicios, recursos y laboratorios de práctica en Python.
 
 ## Uso rápido
 
@@ -24,4 +24,4 @@ Contiene ejercicios, ejemplos y material de práctica organizados por lenguaje d
 
 ## Última actualización
 
-2026-05-17
+2026-05-19

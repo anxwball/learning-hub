@@ -21,6 +21,7 @@ Repositorio con contenidos desde nivel básico hasta intermedio, con especial é
 - Mini proyectos desplegados con `README.md` claro (stack, rol, cómo ejecutar).
 - APIs con ejemplos de petición/respuesta y script de carga de datos.
 - Ejercicios convertidos en componentes reutilizables o bibliotecas pequeñas.
+- Laboratorios prácticos de `freeCodeCamp` documentados en `lenguajes/python/freecodecamp_labs/`.
 
 > Ver `docs/PROJECT_README_TEMPLATE.md` y `docs/PROJECT_CHECKLIST.md` para plantillas y pasos para convertir ejercicios en proyectos desplegables.
 
@@ -30,13 +31,14 @@ Repositorio con contenidos desde nivel básico hasta intermedio, con especial é
 - `backend/` — prácticas de APIs, autenticación, FastAPI.
 - `cloud/` — material de servicios en la nube.
 - `lenguajes/python/100_ejercicios/` — ejercicios prácticos (útil para pruebas técnicas y algoritmos).
+- `lenguajes/python/freecodecamp_labs/` — laboratorios de práctica basados en rutas de freeCodeCamp.
 - `proyectos/` — lugar recomendado para publicar proyectos end-to-end.
 - `recursos/` — plantillas y referencias (incluye `ENCABEZADO_EJERCICIOS.md`).
 
 ## Cómo usar este repositorio
 
 1. Revisar la sección **Portfolio destacado**.
-1. Para ver demos rápidas: abrir `proyectos/` (si existen) o ejecutar los ejercicios en `lenguajes/python/100_ejercicios/`.
+1. Para ver demos rápidas: abrir `proyectos/` (si existen), ejecutar ejercicios en `lenguajes/python/100_ejercicios/` o revisar labs en `lenguajes/python/freecodecamp_labs/`.
 1. Para convertir un ejercicio en proyecto desplegable: seguir `docs/PROJECT_CHECKLIST.md`.
 
 ## Cómo contribuir
@@ -54,4 +56,4 @@ This repository is a personal Learning Hub focused on Python exercises and found
 
 ---
 
-Última actualización: 2026-05-17
+Última actualización: 2026-05-19
