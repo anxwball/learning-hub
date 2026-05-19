@@ -41,7 +41,7 @@ uv run python lenguajes/python/100_ejercicios/Ejercicio_1.py
 Ejemplo de laboratorio freeCodeCamp:
 
 ```bash
-python lenguajes/python/freecodecamp_labs/travel_weather_planer/main.py
+python lenguajes/python/freecodecamp_labs/travel_weather_planner/main.py
 ```
 
 ## Última actualización
