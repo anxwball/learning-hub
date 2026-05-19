@@ -8,7 +8,7 @@ description: Plantilla compacta para pegar al inicio de cada archivo de práctic
 ```text
 Problema : [Nombre del problema]
 Fuente   : [Autor / curso]
-Plataforma: [LeetCode | CodeWars | Repo | Curso] (enlace)
+Plataforma: [LeetCode | CodeWars | Repo | Curso | freeCodeCamp] (enlace)
 Etiquetas : [arreglos, programacion-dinamica, grafos, ...]
 Fecha     : YYYY-MM-DD
 Estado    : resuelto | por revisar | estancado
@@ -35,6 +35,7 @@ Revisión:
 ## Reglas rápidas
 
 - `Etiquetas`: usar minúsculas y `kebab-case` (por ejemplo, `manejo-errores`, `consultas-sql`, `bases-de-datos`).
+- Consultar el catálogo canónico en `docs/README_ETIQUETAS.md` antes de crear etiquetas nuevas.
 - Evitar tildes y caracteres especiales en etiquetas.
 - Separar etiquetas con coma y espacio: `etiqueta-1, etiqueta-2, etiqueta-3`.
 - `Fecha`: usar siempre formato `YYYY-MM-DD`.
