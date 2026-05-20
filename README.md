@@ -86,7 +86,7 @@ Si quieres añadir un nuevo tema, ejercicio o mini-proyecto, sigue las indicacio
 - Autor: Aaron Newball
 - Redes: [LinkedIn](https://www.linkedin.com/in/aaron-newball) e [Instagram](https://www.instagram.com/anxwball)
 
-## Resumen en inglés
+## English Summary
 
 This repository is a learning hub organized by topic and language. It focuses on Python exercises, educational labs, backend/frontend practice, data structures, systems design, cloud, security, networking, and reusable documentation templates.
 
