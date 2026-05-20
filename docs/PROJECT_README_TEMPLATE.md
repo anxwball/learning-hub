@@ -1,58 +1,62 @@
-# Project Title
+# Título del proyecto
 
 ---
 
-Short description: What the project does and its purpose.
+Breve descripción: Qué hace el ejercicio, laboratorio, mini-aplicación o API y por qué existe.
 
-## Role and scope
+## Rol y alcance
 
-- Role: (Author / Contributor / Maintainer)
-- Scope: (Mini app, demo API, ejercicio ampliado)
+- Rol: (Autor / Colaborador / Mantenedor)
+- Alcance: (Ejercicio, laboratorio, API demo, mini-app, proyecto ampliado)
 
-## Tech stack
+## Contexto
 
-- Languages: Python, JavaScript
-- Frameworks: FastAPI, React (if used)
-- Data: SQLite/Postgres, MongoDB (if used)
+- Fuente: (curso, libro, plataforma, repositorio o idea propia)
+- Etiquetas: (opcional, usar el catálogo canónico en `docs/README_ETIQUETAS.md`)
 
-## How to run (local)
+## Stack tecnológico
 
-1. Prerequisites
+- Lenguajes: Python, JavaScript u otros relevantes
+- Frameworks: FastAPI, React u otros que aplique
+- Datos: SQLite, Postgres, MongoDB, archivos, o ninguno si no aplica
 
-- Python 3.10+ and `pip` installed. Docker is optional.
+## Qué incluye
 
-1. Setup virtual environment and install dependencies
+- Punto de entrada principal o archivos del ejercicio
+- Scripts auxiliares, utilidades o archivos de datos
+- Capturas, diagramas o ejemplos de salida (opcionales)
+
+## Cómo ejecutar (local)
+
+1. Requisitos
+
+- Indicar la versión mínima del runtime, gestor de paquetes y herramientas opcionales.
+
+1. Configuración
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate  # Windows
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-1. Run the app (example)
+1. Ejecutar
 
 ```bash
-uvicorn app.main:app --reload
+python main.py
 ```
 
 ## Tests
 
-Describe how to run tests, e.g. `pytest tests/`.
+Explicar cómo ejecutar las pruebas o indicar que aún no hay pruebas disponibles.
 
-## Docker
+## Ejemplos
 
-If available, describe how to build and run the Docker image.
+Añadir 2–3 ejemplos de entradas, comandos, peticiones o salidas esperadas.
 
-## Deployment
+## Notas
 
-Short notes on deployment (Heroku, Vercel, GCP) and link to demo URL.
-
-## API examples (if API)
-
-Provide 2–3 curl or HTTP examples showing requests and expected responses.
-
-> Notes:
-     Any additional comments: tradeoffs, future work, known issues.
+Usar esta sección para consideraciones, trabajo futuro, supuestos o problemas conocidos.
 
 ## Última actualización
 

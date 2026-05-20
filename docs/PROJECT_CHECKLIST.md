@@ -1,48 +1,45 @@
-# Checklist para convertir un ejercicio en mini‑proyecto desplegable
+# Checklist para convertir un ejercicio en proyecto documentado
 
-1. Seleccionar ejercicio objetivo
+1. Seleccionar el objetivo
 
-- Elegir un ejercicio representativo y con posibilidad de ampliación.
+- Elegir un ejercicio, laboratorio o idea que merezca ampliarse.
 
-1. Crear estructura de proyecto
+1. Crear la estructura
 
-- Crear `proyectos/<nombre>/` con `app/`, `requirements.txt` y `README.md`.
+- Crear `proyectos/<nombre>/` o la carpeta correspondiente dentro del módulo elegido.
+- Añadir los archivos mínimos necesarios para ejecutar o entender el contenido.
 
 1. Documentar con la plantilla
 
 - Completar `README.md` usando `docs/PROJECT_README_TEMPLATE.md`.
 
-1. Añadir datos de ejemplo
+1. Añadir ejemplos o datos de apoyo
 
-- Incluir `data/sample/` y scripts para poblar la base de datos si aplica.
+- Incluir ejemplos de entrada, salida o datos de muestra si aplican.
 
-1. Añadir Dockerfile
+1. Añadir instrucciones de ejecución
 
-- Crear un `Dockerfile` mínimo que permita ejecutar la aplicación.
+- Explicar claramente cómo ejecutar el ejercicio, laboratorio o app.
 
 1. Tests y calidad
 
-- Añadir tests básicos y (opcional) un `Makefile` o scripts para ejecutarlos.
+- Añadir tests básicos y, si encaja, scripts o comandos para ejecutarlos.
 
 1. CI básico
 
-- (Opcional) Añadir un workflow en `.github/workflows/ci.yml` que instale dependencias y ejecute tests en cada Pull Request.
-
-1. Despliegue (opcional)
-
-- Opcional: desplegar en Heroku/GCP/Vercel u otra plataforma; anotar la URL en `README.md` si corresponde.
+- (Opcional) Añadir un workflow en `.github/workflows/` que instale dependencias y ejecute tests.
 
 1. Ejemplos de uso
 
-- Incluir ejemplos `curl`/Postman y capturas de pantalla cuando sea posible.
-
-1. Actualizar `README.md` raíz
-
-- Añadir el proyecto a la sección "Portfolio destacado" del `README.md`.
+- Incluir ejemplos de uso, capturas o comandos cuando aporten claridad.
 
 1. Revisar licencias y datos sensibles
 
-- No incluir credenciales ni claves en el repositorio.
+- No incluir credenciales, claves ni información privada en el repositorio.
+
+1. Actualizar documentación relacionada
+
+- Si el cambio afecta a un índice o README principal, enlazar o mencionar el nuevo contenido donde corresponda.
 
 ## Última actualización
 

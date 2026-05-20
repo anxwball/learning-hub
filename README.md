@@ -1,61 +1,95 @@
-# Learning Hub — Portfolio y ejercicios
+# Learning Hub
 
-Repositorio personal que centraliza ejercicios, notas y proyectos formativos. El objetivo es mostrar capacidades técnicas y facilitar la transformación de ejercicios en pequeños proyectos demostrables para pruebas técnicas y evaluaciones.
+Repositorio de aprendizaje y práctica técnica organizado por áreas. Reúne ejercicios, laboratorios, apuntes y espacios reservados para ampliar el contenido en proyectos demostrables. La mayor parte del repositorio está orientada a estudio guiado, documentación y práctica incremental.
 
-## Resumen rápido
+## Estado actual
 
----
+- Repositorio activo como base educativa y de portfolio técnico.
+- Python es el bloque más desarrollado, con una serie de 100 ejercicios y laboratorios de freeCodeCamp.
+- También existen áreas preparadas para backend, frontend, bases de datos, nube, ciberseguridad, redes y diseño de sistemas.
+- Varias carpetas funcionan como contenedores de contenido futuro y hoy solo incluyen `.gitkeep`.
 
-Repositorio con contenidos desde nivel básico hasta intermedio, con especial énfasis en Python y estructuras de datos. Incluye ejercicios y materiales que pueden ampliarse en proyectos end-to-end. El repositorio contiene también guías y plantillas para despliegues, integración continua y documentación de casos de uso.
+## Estructura general
 
-### Skills principales demostradas
+- `backend/` - práctica de APIs, autenticación, FastAPI y bases de datos.
+- `ciberseguridad/` - material de estudio y ejercicios relacionados con seguridad.
+- `cloud/` - contenidos de nube, con foco inicial en AWS.
+- `cursos/` - espacio para organizar cursos y rutas de aprendizaje.
+- `diseno-sistemas/` - conceptos y casos de estudio de diseño de sistemas.
+- `docs/` - plantillas y listas de verificación para documentación y proyectos.
+- `estructuras-datos/` - ejercicios y apuntes de estructuras de datos y algoritmos.
+- `frontend/` - práctica de CSS y React.
+- `lenguajes/` - material organizado por lenguaje de programación.
+- `proyectos/` - espacio para mini-proyectos y demos ampliadas.
+- `recursos/` - referencias, plantillas y encabezados reutilizables.
+- `redes/` - conceptos y material de redes.
 
-- **Lenguajes:** Python (principal), JavaScript (frontend básico).
-- **Backend / APIs:** FastAPI, diseño de endpoints REST.
-- **Datos:** SQL y NoSQL (carpetas `backend/bases-de-datos/`).
-- **Conceptos:** estructuras de datos, algoritmos, diseño de sistemas.
-- **Herramientas recomendadas a añadir:** Docker, GitHub Actions, despliegue en la nube (GCP/AWS/Heroku/Vercel).
+## Contenido principal por área
 
-### Portfolio destacado
+### Backend
 
-- Mini proyectos desplegados con `README.md` claro (stack, rol, cómo ejecutar).
-- APIs con ejemplos de petición/respuesta y script de carga de datos.
-- Ejercicios convertidos en componentes reutilizables o bibliotecas pequeñas.
-- Laboratorios prácticos de `freeCodeCamp` documentados en `lenguajes/python/freecodecamp_labs/`.
-- Laboratorios de personajes y validación de atributos de `freeCodeCamp` documentados en `lenguajes/python/freecodecamp_labs/rpg_character/`.
+- `backend/apis/` - práctica de diseño y consumo de APIs.
+- `backend/autenticacion/` - contenidos de autenticación y control de acceso.
+- `backend/bases-de-datos/` - material sobre bases de datos relacionales y NoSQL.
+- `backend/bases-de-datos/sql/` - práctica de SQL.
+- `backend/bases-de-datos/nosql/` - práctica de bases de datos NoSQL.
+- `backend/fastapi/` - ejercicios y ejemplos con FastAPI.
 
-> Ver `docs/PROJECT_README_TEMPLATE.md` y `docs/PROJECT_CHECKLIST.md` para plantillas y pasos para convertir ejercicios en proyectos desplegables.
+### Lenguajes
 
-## Estructura principal (resumen)
+- `lenguajes/README.md` - índice general por lenguaje.
+- `lenguajes/javascript/` - espacio para práctica en JavaScript.
+- `lenguajes/python/README.md` - índice del bloque Python.
+- `lenguajes/python/100_ejercicios/` - serie de 100 ejercicios en Python.
+- `lenguajes/python/freecodecamp_labs/` - laboratorios prácticos de freeCodeCamp.
+- `lenguajes/python/freecodecamp_labs/travel_weather_planner/` - laboratorio de planificación de viajes y clima.
+- `lenguajes/python/freecodecamp_labs/rpg_character/` - laboratorio de generación y validación de personajes.
+- `lenguajes/python/freecodecamp_labs/number_pattern_generator/` - laboratorio de patrones numéricos.
+- `lenguajes/python/freecodecamp_labs/apply_discount_func/` - laboratorio de funciones de descuento.
 
-- `.github/` — workflows y plantillas.
-- `backend/` — prácticas de APIs, autenticación, FastAPI.
-- `cloud/` — material de servicios en la nube.
-- `lenguajes/python/100_ejercicios/` — ejercicios prácticos (útil para pruebas técnicas y algoritmos).
-- `lenguajes/python/freecodecamp_labs/` — laboratorios de práctica basados en rutas de freeCodeCamp.
-- `lenguajes/python/freecodecamp_labs/rpg_character/` — laboratorio de validación y construcción de personajes RPG.
-- `proyectos/` — lugar recomendado para publicar proyectos end-to-end.
-- `recursos/` — plantillas y referencias (incluye `ENCABEZADO_EJERCICIOS.md`).
+### Estructuras de datos
 
-## Cómo usar este repositorio
+- `estructuras-datos/arreglos/` - trabajo con arrays y listas.
+- `estructuras-datos/listas-enlazadas/` - listas enlazadas.
+- `estructuras-datos/arboles/` - árboles.
+- `estructuras-datos/grafos/` - grafos.
+- `estructuras-datos/ordenamiento/` - algoritmos de ordenamiento.
+- `estructuras-datos/programacion-dinamica/` - programación dinámica.
 
-1. Revisar la sección **Portfolio destacado**.
-1. Para ver demos rápidas: abrir `proyectos/` (si existen), ejecutar ejercicios en `lenguajes/python/100_ejercicios/` o revisar labs en `lenguajes/python/freecodecamp_labs/`.
-1. Para convertir un ejercicio en proyecto desplegable: seguir `docs/PROJECT_CHECKLIST.md`.
+### Otras áreas
+
+- `frontend/css/` - práctica de estilos y maquetación.
+- `frontend/react/` - práctica de componentes y aplicaciones en React.
+- `cloud/aws/` - material específico de AWS.
+- `diseno-sistemas/conceptos/` - conceptos generales de arquitectura.
+- `diseno-sistemas/casos-de-estudio/` - análisis de casos.
+- `redes/conceptos/` - conceptos de redes.
+- `recursos/ENCABEZADO_EJERCICIOS.md` - encabezado estándar para ejercicios.
+- `recursos/cursos.md` - catálogo de cursos y recursos.
+- `recursos/libros.md` - lista de libros.
+- `recursos/plataformas.md` - plataformas de aprendizaje.
+- `recursos/canales.md` - canales recomendados.
+
+## Cómo navegar el repositorio
+
+1. Empieza por `lenguajes/python/README.md` si quieres ver el bloque más completo.
+2. Revisa `docs/PROJECT_README_TEMPLATE.md` y `docs/PROJECT_CHECKLIST.md` si vas a convertir un ejercicio en proyecto.
+3. Usa `CONTRIBUTING.md` si quieres añadir contenido nuevo o ampliar una carpeta existente.
+4. Consulta `recursos/` para encontrar plantillas y material de apoyo reutilizable.
 
 ## Cómo contribuir
 
-Si quieres ayudar con mejoras de documentación o añadir un mini‑proyecto, revisa `CONTRIBUTING.md`.
+Si quieres añadir un nuevo tema, ejercicio o mini-proyecto, sigue las indicaciones de `CONTRIBUTING.md` y reutiliza las plantillas de `docs/` para mantener consistencia.
 
 ## Contacto
 
 - Autor: Aaron Newball
-- Redes: [LinkedIn](linkedin.com/anxwball), [Instagram](instagram.com/anxwball).
+- Redes: LinkedIn e Instagram de @anxwball
 
-## English summary
+## Resumen en inglés
 
-This repository is a personal Learning Hub focused on Python exercises and foundational backend/cloud concepts. It contains educational resources and provides templates and examples for creating small deployable demo projects.
+This repository is a learning hub organized by topic and language. It focuses on Python exercises, educational labs, backend/frontend practice, data structures, systems design, cloud, security, networking, and reusable documentation templates.
 
 ---
 
-Última actualización: 2026-05-19
+Última actualización: 2026-05-20

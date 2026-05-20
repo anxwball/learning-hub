@@ -2,16 +2,13 @@
 
 ## Descripción
 
-Contiene ejercicios, laboratorios, ejemplos y material de práctica organizados por lenguaje de programación.
+Índice de ejercicios, laboratorios y materiales de práctica organizados por lenguaje de programación.
 
-## Ubicación
+## Estado actual
 
-`lenguajes`
-
-## Estado
-
-- Módulo activo para organizar la práctica por lenguaje.
-- Incluye rutas para JavaScript y Python, con ejercicios y laboratorios de práctica.
+- El módulo está activo como punto de entrada a la práctica por lenguaje.
+- Python es la ruta más desarrollada y concentra la mayor parte del contenido.
+- JavaScript está preparado como espacio de práctica complementaria.
 
 ## Estructura
 
@@ -20,8 +17,9 @@ Contiene ejercicios, laboratorios, ejemplos y material de práctica organizados 
 
 ## Uso rápido
 
-- Para Python, consultar `lenguajes/python/README.md` para estructura y ejecución.
+1. Empieza por `lenguajes/python/README.md` si quieres ver el bloque más completo.
+2. Usa `lenguajes/` como índice general antes de entrar en cada lenguaje.
 
 ## Última actualización
 
-2026-05-19
+2026-05-20
