@@ -44,6 +44,12 @@ Ejemplo de laboratorio freeCodeCamp:
 python lenguajes/python/freecodecamp_labs/travel_weather_planner/main.py
 ```
 
+Ejemplo adicional de laboratorio freeCodeCamp:
+
+```bash
+python lenguajes/python/freecodecamp_labs/rpg_character/main.py
+```
+
 ## Última actualización
 
 2026-05-19

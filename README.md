@@ -22,6 +22,7 @@ Repositorio con contenidos desde nivel básico hasta intermedio, con especial é
 - APIs con ejemplos de petición/respuesta y script de carga de datos.
 - Ejercicios convertidos en componentes reutilizables o bibliotecas pequeñas.
 - Laboratorios prácticos de `freeCodeCamp` documentados en `lenguajes/python/freecodecamp_labs/`.
+- Laboratorios de personajes y validación de atributos de `freeCodeCamp` documentados en `lenguajes/python/freecodecamp_labs/rpg_character/`.
 
 > Ver `docs/PROJECT_README_TEMPLATE.md` y `docs/PROJECT_CHECKLIST.md` para plantillas y pasos para convertir ejercicios en proyectos desplegables.
 
@@ -32,6 +33,7 @@ Repositorio con contenidos desde nivel básico hasta intermedio, con especial é
 - `cloud/` — material de servicios en la nube.
 - `lenguajes/python/100_ejercicios/` — ejercicios prácticos (útil para pruebas técnicas y algoritmos).
 - `lenguajes/python/freecodecamp_labs/` — laboratorios de práctica basados en rutas de freeCodeCamp.
+- `lenguajes/python/freecodecamp_labs/rpg_character/` — laboratorio de validación y construcción de personajes RPG.
 - `proyectos/` — lugar recomendado para publicar proyectos end-to-end.
 - `recursos/` — plantillas y referencias (incluye `ENCABEZADO_EJERCICIOS.md`).
 
