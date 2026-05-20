@@ -84,7 +84,7 @@ Si quieres añadir un nuevo tema, ejercicio o mini-proyecto, sigue las indicacio
 ## Contacto
 
 - Autor: Aaron Newball
-- Redes: LinkedIn e Instagram de @anxwball
+- Redes: [LinkedIn](https://www.linkedin.com/in/aaron-newball) e [Instagram](https://www.instagram.com/anxwball)
 
 ## Resumen en inglés
 
