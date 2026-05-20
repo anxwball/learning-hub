@@ -17,3 +17,7 @@ Este repositorio agrupa ejercicios, plantillas y mini-proyectos. Si deseas propo
 5. (Opcional) Workflow de CI en `.github/workflows/` que ejecute tests.
 
 Para dudas o coordinación sobre cambios amplios, contactar al autor.
+
+## Última actualización
+
+2026-05-20

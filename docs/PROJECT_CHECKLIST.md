@@ -43,3 +43,7 @@
 1. Revisar licencias y datos sensibles
 
 - No incluir credenciales ni claves en el repositorio.
+
+## Última actualización
+
+2026-05-20

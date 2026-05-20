@@ -30,6 +30,10 @@ Casos de uso:
 Revisión:
   - Nota 1
   - Nota 2
+
+## Última actualización
+
+2026-05-20
 ```
 
 ## Reglas rápidas

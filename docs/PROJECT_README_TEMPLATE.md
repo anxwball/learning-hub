@@ -53,3 +53,7 @@ Provide 2–3 curl or HTTP examples showing requests and expected responses.
 
 > Notes:
      Any additional comments: tradeoffs, future work, known issues.
+
+## Última actualización
+
+2026-05-20
