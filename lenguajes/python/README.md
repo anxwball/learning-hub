@@ -41,8 +41,9 @@ python lenguajes/python/freecodecamp_labs/travel_weather_planner/main.py
 python lenguajes/python/freecodecamp_labs/rpg_character/main.py
 python lenguajes/python/freecodecamp_labs/number_pattern_generator/main.py
 python lenguajes/python/freecodecamp_labs/apply_discount_func/main.py
+python lenguajes/python/freecodecamp_labs/user_config_manager/main.py
 ```
 
 ## Última actualización
 
-2026-05-20
+2026-05-21

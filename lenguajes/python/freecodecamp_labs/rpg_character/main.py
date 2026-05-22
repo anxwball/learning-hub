@@ -3,7 +3,7 @@ Problema  : Crear un personaje RPG.
 Fuente    : freeCodeCamp Labs
 Plataforma: freeCodeCamp (https://www.freecodecamp.org/learn/python-v9/)
 Etiquetas : fundamentos, poo, validacion
-Fecha     : 2026-05-19
+Fecha     : 2026-05-21
 Estado    : resuelto
 
 Enfoque:
@@ -24,13 +24,19 @@ Casos de uso:
     - Generar una representación visual simple de atributos.
 
 Revisión:
-    - 2026-05-19: Encabezado documental agregado y lógica preservada.
+    - 2026-05-21: Tipado, estilo y estructura `main()` normalizados.
 """
 
-full_dot = '●'
-empty_dot = '○'
+FULL_DOT: str = "●"
+EMPTY_DOT: str = "○"
 
-def create_character (name, strenght, intelligence, charisma):
+
+def create_character(
+    name: str,
+    strength: int,
+    intelligence: int,
+    charisma: int,
+) -> str:
     """Crear y validar una ficha de personaje RPG.
 
     Recibe un nombre y tres estadísticas, valida que cumplan las reglas del
@@ -39,47 +45,53 @@ def create_character (name, strenght, intelligence, charisma):
 
     Args:
         name: Nombre del personaje.
-        strenght: Puntuación de fuerza.
+        strength: Puntuación de fuerza.
         intelligence: Puntuación de inteligencia.
         charisma: Puntuación de carisma.
 
     Returns:
-        str: Mensaje de error o la ficha final del personaje.
+        Mensaje de error o la ficha final del personaje.
     """
-
     if not isinstance(name, str):
-        return "The character name should be a string"
-    
+        return "The character name should be a string."
+
     if name == "":
-        return "The character should have a name"
-    
+        return "The character should have a name."
+
     if len(name) > 10:
-        return "The character name is too long"
+        return "The character name is too long."
 
     if " " in name:
-        return "The character name should not contain spaces"
+        return "The character name should not contain spaces."
 
-    if not isinstance(strenght, int) or not isinstance(intelligence, int) or not isinstance(charisma, int):
-        return "All stats should be integers"
+    stats: tuple[int, int, int] = (strength, intelligence, charisma)
+    if not all(isinstance(stat, int) and not isinstance(stat, bool) for stat in stats):
+        return "All stats should be integers."
 
-    if strenght < 1 or intelligence < 1 or charisma < 1:
-        return "All stats should be no less than 1"
+    if min(stats) < 1:
+        return "All stats should be no less than 1."
 
-    if strenght > 4 or intelligence > 4 or charisma > 4:
-        return "All stats should be no more than 4"
+    if max(stats) > 4:
+        return "All stats should be no more than 4."
 
-    if sum([strenght, intelligence, charisma]) != 7:
-        return "The character should start with 7 points"
+    if sum(stats) != 7:
+        return "The character should start with 7 points."
 
-    strenght_dots = full_dot * strenght
-    intelligence_dots = full_dot * intelligence
-    charisma_dots = full_dot * charisma
+    strength_dots: str = FULL_DOT * strength
+    intelligence_dots: str = FULL_DOT * intelligence
+    charisma_dots: str = FULL_DOT * charisma
 
-    strenght_calc = strenght_dots + (empty_dot * (10 - strenght))
-    intelligence_calc = intelligence_dots + (empty_dot * (10 - intelligence))
-    charisma_calc = charisma_dots + (empty_dot * (10 - charisma))
+    strength_calc: str = strength_dots + (EMPTY_DOT * (10 - strength))
+    intelligence_calc: str = intelligence_dots + (EMPTY_DOT * (10 - intelligence))
+    charisma_calc: str = charisma_dots + (EMPTY_DOT * (10 - charisma))
+
+    return f"{name}\nSTR {strength_calc}\nINT {intelligence_calc}\nCHA {charisma_calc}"
 
 
-    return f"{name}\nSTR {strenght_calc}\nINT {intelligence_calc}\nCHA {charisma_calc}"
+def main() -> None:
+    """Ejecutar una demostración mínima del laboratorio."""
+    print(create_character("ren", 4, 2, 1))
 
-print(create_character("ren", 4, 2, 1))
+
+if __name__ == "__main__":
+    main()

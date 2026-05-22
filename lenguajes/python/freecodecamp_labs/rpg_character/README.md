@@ -27,18 +27,18 @@ Cumple las historias de usuario siguientes y haz que todas las pruebas pasen par
 - Debes tener una función llamada `create_character`.
 - La función debe aceptar, en este orden, un nombre de personaje seguido de tres estadísticas: fuerza, inteligencia y carisma.
 - El nombre del personaje debe validarse:
-	- Si el nombre no es una cadena, la función debe retornar `The character name should be a string.`
-	- Si el nombre está vacío, la función debe retornar `The character should have a name.`
-	- Si el nombre tiene más de 10 caracteres, la función debe retornar `The character name is too long.`
-	- Si el nombre contiene espacios, la función debe retornar `The character name should not contain spaces.`
+  - Si el nombre no es una cadena, la función debe retornar `The character name should be a string.`
+  - Si el nombre está vacío, la función debe retornar `The character should have a name.`
+  - Si el nombre tiene más de 10 caracteres, la función debe retornar `The character name is too long.`
+  - Si el nombre contiene espacios, la función debe retornar `The character name should not contain spaces.`
 - Las estadísticas también deben validarse:
-	- Si una o más estadísticas no son enteros, la función debe retornar `All stats should be integers.`
-	- Si una o más estadísticas son menores que 1, la función debe retornar `All stats should be no less than 1.`
-	- Si una o más estadísticas son mayores que 4, la función debe retornar `All stats should be no more than 4.`
-	- Si la suma de todas las estadísticas es distinta de 7, la función debe retornar `The character should start with 7 points.`
+  - Si una o más estadísticas no son enteros, la función debe retornar `All stats should be integers.`
+  - Si una o más estadísticas son menores que 1, la función debe retornar `All stats should be no less than 1.`
+  - Si una o más estadísticas son mayores que 4, la función debe retornar `All stats should be no more than 4.`
+  - Si la suma de todas las estadísticas es distinta de 7, la función debe retornar `The character should start with 7 points.`
 - Si todos los valores pasan la validación, la función debe retornar una cadena con cuatro líneas:
-	- La primera línea debe contener el nombre del personaje.
-	- Las líneas 2 a 4 deben comenzar con la abreviatura de la estadística, `STR`, `INT` o `CHA` en ese orden, seguida de un espacio y después una cantidad de puntos llenos (`●`) igual al valor de la estadística, y una cantidad de puntos vacíos (`○`) hasta completar 10. Ejemplo: si el valor de fuerza es 3, deben aparecer 3 puntos llenos seguidos de 7 puntos vacíos.
+  - La primera línea debe contener el nombre del personaje.
+  - Las líneas 2 a 4 deben comenzar con la abreviatura de la estadística, `STR`, `INT` o `CHA` en ese orden, seguida de un espacio y después una cantidad de puntos llenos (`●`) igual al valor de la estadística, y una cantidad de puntos vacíos (`○`) hasta completar 10. Ejemplo: si el valor de fuerza es 3, deben aparecer 3 puntos llenos seguidos de 7 puntos vacíos.
 - La cadena que debe retornar `create_character('ren', 4, 2, 1)` es la siguiente:
 
 ## Ejemplo
@@ -88,4 +88,4 @@ python lenguajes/python/freecodecamp_labs/rpg_character/main.py
 
 ## Última actualización
 
-2026-05-19
+2026-05-21

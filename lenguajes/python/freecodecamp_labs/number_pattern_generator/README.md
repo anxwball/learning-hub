@@ -6,11 +6,12 @@ En este laboratorio practicarás los conceptos básicos de Python creando una pe
 
 ## Ubicación
 
-lenguajes/python/freecodecamp_labs/number_pattern_generator
+`lenguajes/python/freecodecamp_labs/number_pattern_generator`
 
 ## Estado
 
 - Laboratorio resuelto.
+- Encabezado y documentación alineados con el formato del módulo Python.
 
 ## Estructura
 
@@ -53,4 +54,4 @@ python lenguajes/python/freecodecamp_labs/number_pattern_generator/main.py
 
 ## Última actualización
 
-2026-05-20
+2026-05-21

@@ -31,12 +31,13 @@ Breve descripción: Conjunto de labs y ejercicios tomados de FreeCodeCamp: Pytho
 - [lenguajes/python/freecodecamp_labs/number_pattern_generator/README.md](lenguajes/python/freecodecamp_labs/number_pattern_generator/README.md) — Ejercicio `number_pattern_generator` (`main.py`).
 - [lenguajes/python/freecodecamp_labs/rpg_character/README.md](lenguajes/python/freecodecamp_labs/rpg_character/README.md) — Ejercicio `rpg_character` (`main.py`).
 - [lenguajes/python/freecodecamp_labs/travel_weather_planner/README.md](lenguajes/python/freecodecamp_labs/travel_weather_planner/README.md) — Ejercicio `travel_weather_planner` (`main.py`).
+- [lenguajes/python/freecodecamp_labs/user_config_manager/README.md](lenguajes/python/freecodecamp_labs/user_config_manager/README.md) — Ejercicio `user_config_manager` (`main.py`).
 
 ## Cómo ejecutar (local)
 
 1. Requisitos
 
-- Python 3.8 o superior
+- Python 3.11 o superior
 
 1. Configuración (Windows - PowerShell)
 
@@ -73,4 +74,4 @@ Actualmente no hay una suite de tests centralizada. Si un ejercicio incluye prue
 
 ## Última actualización
 
-2026-05-20
+2026-05-21
