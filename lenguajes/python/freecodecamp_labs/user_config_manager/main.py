@@ -124,10 +124,11 @@ def main() -> None:
     Las operaciones se ejecutan de forma demostrativa; las funciones están
     diseñadas para ser probadas por el runner del laboratorio.
     """
-    local_settings: Dict[str, str] = {"theme": "light"}
-    add_setting(local_settings, ("volume", "high"))
-    update_setting(local_settings, ("theme", "dark"))
-    delete_setting(local_settings, "volume")
+    # Imprimir configuracion por cada operación para demostrar resultados
+    print(add_setting(test_settings, ("volume", "high")))
+    print(update_setting(test_settings, ("theme", "dark")))
+    print(delete_setting(test_settings, "volume"))
+    print(view_settings(test_settings))
 
 
 if __name__ == "__main__":
