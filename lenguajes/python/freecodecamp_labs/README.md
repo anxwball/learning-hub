@@ -27,6 +27,7 @@ Breve descripción: Conjunto de labs y ejercicios tomados de FreeCodeCamp: Pytho
 
 ### Subcarpetas incluidas
 
+- [lenguajes/python/freecodecamp_labs/debug_isbn_validator/README.md](lenguajes/python/freecodecamp_labs/debug_isbn_validator/README.md) — Ejercicio `debug_isbn_validator` (`main.py`).
 - [lenguajes/python/freecodecamp_labs/apply_discount_func/README.md](lenguajes/python/freecodecamp_labs/apply_discount_func/README.md) — Ejercicio `apply_discount_func` (`main.py`).
 - [lenguajes/python/freecodecamp_labs/number_pattern_generator/README.md](lenguajes/python/freecodecamp_labs/number_pattern_generator/README.md) — Ejercicio `number_pattern_generator` (`main.py`).
 - [lenguajes/python/freecodecamp_labs/rpg_character/README.md](lenguajes/python/freecodecamp_labs/rpg_character/README.md) — Ejercicio `rpg_character` (`main.py`).
