@@ -1,4 +1,5 @@
-Debug an ISBN Validator
+# Debug an ISBN Validator
+
 The ISBN (International Standard Book Number) is a unique identifier assigned to commercial books. It can be either 10 or 13 digits long, and the last digit is a check digit calculated from the other digits.
 
 Camperbot has tried to build their own ISBN validator. However, they have made a few mistakes along the way.
@@ -34,14 +35,15 @@ Important: you will need to comment out the main() call in the global space for 
 
 When you complete the project, the user should see the following messages depending on the values they enter.
 
-ISBN Code	Length	Message	Example input
-Valid	Valid	Valid ISBN Code.	1530051126,10
-Invalid Number	Valid	Invalid ISBN Code.	1530051125,10
-Does not match specified length or left blank	Valid	ISBN-10 code should be 10 digits long. or ISBN-13 code should be 13 digits long., depending on the length they entered.	9781530051120,10 or 1530051126,13
-Contains non-numeric characters (except for the check digit)	Valid	Invalid character was found.	15-0051126,10
-Any	Invalid Number	Length should be 10 or 13.	1530051126,9
-Any	Contains non-numeric characters or left blank	Length must be a number.	1530051125,A
-Not comma-separated	Not comma-separated	Enter comma-separated values.	1530051125
+| ISBN Code | Length | Message | Example input |
+| Valid | Valid | Valid ISBN Code. | 1530051126,10 |
+| Invalid Number | Valid | Invalid ISBN Code. | 1530051125,10  |
+| Does not match specified length or left blank | Valid | ISBN-10 code should be 10 digits long. or ISBN-13 code should be 13 digits long., depending on the length they entered. | 9781530051120,10 or 1530051126,13 |
+| Contains non-numeric characters (except for the check digit) | Valid | Invalid character was found. | 15-0051126,10 |
+| Any | Invalid Number | Length should be 10 or 13. | 1530051126,9 |
+| Any | Contains non-numeric characters or left blank | Length must be a number. | 1530051125,A |
+| Not comma-separated | Not comma-separated | Enter comma-separated values. | 1530051125 |
+
 You can use the following values to test your code manually if you would like.
 
 Example inputs for valid ISBN-10 codes: 1530051126,10 9971502100,10 080442957X,10
@@ -49,23 +51,23 @@ Example inputs for valid ISBN-10 codes: 1530051126,10 9971502100,10 080442957X,1
 Example inputs for valid ISBN-13 codes: 9781530051120,13 9781947172104,13
 
 Tests:
-Failed:1. You should comment out the call to the main function to allow for the rest of the tests to work properly.
-Failed:2. You should have a validate_isbn function.
-Failed:3. You should have a calculate_check_digit_10 function.
-Failed:4. You should have a calculate_check_digit_13 function.
-Failed:5. You should have a main function.
-Failed:6. When the user inputs a value that is not a comma separated value, you should see the message Enter comma-separated values. in the console.
-Failed:7. When the user inputs a non-numeric value for the length, you should see the message Length must be a number. in the console.
-Failed:8. When the user enters an incorrect ISBN code with characters other than numbers, you should see the message Invalid character was found. in the console.
-Failed:9. When the user enters 1530051126,10, you should see the message Valid ISBN Code. in the console.
-Failed:10. When the user enters 9781530051120,13, you should see the message Valid ISBN Code.
-Failed:11. When the user enters 1530051125,10, you should see the message Invalid ISBN Code..
-Failed:12. When the user enters 9781530051120,10, you should see the message ISBN-10 code should be 10 digits long.
-Failed:13. When the user enters 1530051126,13, you should see the message ISBN-13 code should be 13 digits long.
-Failed:14. When the user enters 15-0051126,10, you should see the message Invalid character was found.
-Failed:15. When the user enters 1530051126,9, you should see the message Length should be 10 or 13.
-Failed:16. When the user enters 1530051125,A, you should see the message Length must be a number.
-Failed:17. When the user enters 1530051125, you should see the message Enter comma-separated values.
-Failed:18. When the user enters 9971502100,10, you should see the message Valid ISBN Code.
-Failed:19. When the user enters 080442957X,10, you should see the message Valid ISBN Code.
-Failed:20. When the user enters 9781947172104,13, you should see the message Valid ISBN Code.
+Passed:1. You should comment out the call to the main function to allow for the rest of the tests to work properly.
+Passed:2. You should have a validate_isbn function.
+Passed:3. You should have a calculate_check_digit_10 function.
+Passed:4. You should have a calculate_check_digit_13 function.
+Passed:5. You should have a main function.
+Passed:6. When the user inputs a value that is not a comma separated value, you should see the message Enter comma-separated values. in the console.
+Passed:7. When the user inputs a non-numeric value for the length, you should see the message Length must be a number. in the console.
+Passed:8. When the user enters an incorrect ISBN code with characters other than numbers, you should see the message Invalid character was found. in the console.
+Passed:9. When the user enters 1530051126,10, you should see the message Valid ISBN Code. in the console.
+Passed:10. When the user enters 9781530051120,13, you should see the message Valid ISBN Code.
+Passed:11. When the user enters 1530051125,10, you should see the message Invalid ISBN Code..
+Passed:12. When the user enters 9781530051120,10, you should see the message ISBN-10 code should be 10 digits long.
+Passed:13. When the user enters 1530051126,13, you should see the message ISBN-13 code should be 13 digits long.
+Passed:14. When the user enters 15-0051126,10, you should see the message Invalid character was found.
+Passed:15. When the user enters 1530051126,9, you should see the message Length should be 10 or 13.
+Passed:16. When the user enters 1530051125,A, you should see the message Length must be a number.
+Passed:17. When the user enters 1530051125, you should see the message Enter comma-separated values.
+Passed:18. When the user enters 9971502100,10, you should see the message Valid ISBN Code.
+Passed:19. When the user enters 080442957X,10, you should see the message Valid ISBN Code.
+Passed:20. When the user enters 9781947172104,13, you should see the message Valid ISBN Code.
