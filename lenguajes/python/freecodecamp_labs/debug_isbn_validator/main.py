@@ -1,6 +1,7 @@
 """
 Problema  : Depurar un validador de ISBN para entradas ISBN-10 e ISBN-13.
-Fuente    : FreeCodeCamp - Python Certification
+Fuente    : FreeCodeCamp Labs
+Plataforma: FreeCodeCamp (https://www.freecodecamp.org/learn/python-v9/)
 Etiquetas : python, freecodecamp, labs, depuracion, validacion, isbn
 Fecha     : 2026-05-22
 Estado    : resuelto
@@ -25,22 +26,21 @@ Casos límite:
       usuario y la ejecución termina.
 
 Casos de uso:
-  - Verificación de códigos ISBN-10 para catálogos y bibliotecas.
-  - Verificación de códigos ISBN-13 para flujos de registro de libros.
-  - Ejercicio de depuración y control de errores en Python.
+    - Verificación de códigos ISBN-10 para catálogos y bibliotecas.
+    - Verificación de códigos ISBN-13 para flujos de registro de libros.
+    - Ejercicio de depuración y control de errores en Python.
 
 Revisión:
-    - 2026-05-22: Normalización del módulo con guard, docstrings,
-      type hints y control correcto de errores.
+    - 2026-05-23: Se añadió el guard `__main__` y se normalizaron los docstrings.
 """
 
 
 def validate_isbn(isbn: str, length: int) -> None:
-    """Validate an ISBN against its check digit.
+    """Validar un ISBN contra su dígito de control.
 
     Args:
-        isbn: ISBN code without hyphens.
-        length: ISBN length, either 10 or 13.
+        isbn: Código ISBN sin guiones.
+        length: Longitud del ISBN, 10 o 13.
 
     Returns:
         None
@@ -70,13 +70,13 @@ def validate_isbn(isbn: str, length: int) -> None:
 
 
 def calculate_check_digit_10(main_digits_list: list[int]) -> str:
-    """Calculate the ISBN-10 check digit.
+    """Calcular el dígito de control de un ISBN-10.
 
     Args:
-        main_digits_list: The first 9 ISBN-10 digits as integers.
+        main_digits_list: Los primeros 9 dígitos del ISBN-10 como enteros.
 
     Returns:
-        The expected check digit as a string.
+        El dígito de control esperado como cadena.
     """
     digits_sum = 0
     for index, digit in enumerate(main_digits_list):
@@ -94,13 +94,13 @@ def calculate_check_digit_10(main_digits_list: list[int]) -> str:
 
 
 def calculate_check_digit_13(main_digits_list: list[int]) -> str:
-    """Calculate the ISBN-13 check digit.
+    """Calcular el dígito de control de un ISBN-13.
 
     Args:
-        main_digits_list: The first 12 ISBN-13 digits as integers.
+        main_digits_list: Los primeros 12 dígitos del ISBN-13 como enteros.
 
     Returns:
-        The expected check digit as a string.
+        El dígito de control esperado como cadena.
     """
     digits_sum = 0
     for index, digit in enumerate(main_digits_list):
@@ -119,7 +119,7 @@ def calculate_check_digit_13(main_digits_list: list[int]) -> str:
 
 
 def main() -> None:
-    """Read user input and validate an ISBN code.
+    """Leer una entrada de consola y validar un ISBN.
 
     Returns:
         None
@@ -143,4 +143,5 @@ def main() -> None:
     print('Length should be 10 or 13.')
 
 
-# main()
+if __name__ == "__main__":
+    main()

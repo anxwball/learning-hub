@@ -42,10 +42,13 @@ Repositorio de aprendizaje y práctica técnica organizado por áreas. Reúne ej
 - `lenguajes/python/README.md` - índice del bloque Python.
 - `lenguajes/python/100_ejercicios/` - serie de 100 ejercicios en Python.
 - `lenguajes/python/freecodecamp_labs/` - laboratorios prácticos de freeCodeCamp.
+- `lenguajes/python/freecodecamp_labs/debug_isbn_validator/` - laboratorio de depuración de ISBN.
 - `lenguajes/python/freecodecamp_labs/travel_weather_planner/` - laboratorio de planificación de viajes y clima.
 - `lenguajes/python/freecodecamp_labs/rpg_character/` - laboratorio de generación y validación de personajes.
 - `lenguajes/python/freecodecamp_labs/number_pattern_generator/` - laboratorio de patrones numéricos.
 - `lenguajes/python/freecodecamp_labs/apply_discount_func/` - laboratorio de funciones de descuento.
+- `lenguajes/python/freecodecamp_labs/user_config_manager/` - laboratorio de gestión de configuración de usuario.
+- `lenguajes/python/freecodecamp_labs/planet_class/` - laboratorio de clases y validación de planetas.
 
 ### Estructuras de datos
 
@@ -92,4 +95,4 @@ This repository is a learning hub organized by topic and language. It focuses on
 
 ---
 
-Última actualización: 2026-05-20
+Última actualización: 2026-05-23

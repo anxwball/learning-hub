@@ -42,8 +42,10 @@ python lenguajes/python/freecodecamp_labs/rpg_character/main.py
 python lenguajes/python/freecodecamp_labs/number_pattern_generator/main.py
 python lenguajes/python/freecodecamp_labs/apply_discount_func/main.py
 python lenguajes/python/freecodecamp_labs/user_config_manager/main.py
+python lenguajes/python/freecodecamp_labs/debug_isbn_validator/main.py
+python lenguajes/python/freecodecamp_labs/planet_class/main.py
 ```
 
 ## Última actualización
 
-2026-05-21
+2026-05-23
